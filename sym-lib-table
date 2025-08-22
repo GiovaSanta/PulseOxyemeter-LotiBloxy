@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ul_MAXM86161EFD-T")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/ul_MAXM86161EFD-T.kicad_sym")(options "")(descr ""))
+  (lib (name "unpolarizedcapacitor")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/unpolarizedcapacitor.kicad_sym")(options "")(descr ""))
+  (lib (name "resistor")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/resistor.kicad_sym")(options "")(descr ""))
+  (lib (name "power_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/power_local.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_CC2640R2FRSMR_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/MCU_CC2640R2FRSMR_local.kicad_sym")(options "")(descr ""))
+)

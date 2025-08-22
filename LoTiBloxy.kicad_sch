@@ -1,0 +1,194 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b00f58d9-17b8-4612-81ad-8f45c5b50f62")
+	(paper "A4")
+	(title_block
+		(title "LowPowerTinyBluetoothPulseOxymeter")
+		(date "2025-08-20")
+		(rev "1")
+		(company "Giovanni Santangelo")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 167.005 118.11) (xy 174.625 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c655c7-e360-430c-9a8c-18558e9489ad")
+	)
+	(wire
+		(pts
+			(xy 167.005 115.57) (xy 174.625 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9712dda0-d059-4268-82b4-cd943b51c946")
+	)
+	(wire
+		(pts
+			(xy 167.005 113.03) (xy 174.625 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc11ec8-198c-41e0-a6d6-ae899b79d90d")
+	)
+	(label "SCL"
+		(at 167.64 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "284f39d5-b878-4f8a-acba-bf03f2faaaae")
+	)
+	(label "INTB"
+		(at 167.64 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99edcc49-d2f6-4524-8402-453a6aa52ded")
+	)
+	(label "SDA"
+		(at 167.64 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f16d539e-0331-410a-808d-a85aee8dc88a")
+	)
+	(sheet
+		(at 174.625 105.41)
+		(size 41.275 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "896ded2f-b8a8-473c-ab14-4db8b592f664")
+		(property "Sheetname" "Sensor"
+			(at 174.625 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 174.625 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 174.625 113.03 180)
+			(uuid "1d9fd847-87bf-4d0a-9f49-fce0d8a1627a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 174.625 115.57 180)
+			(uuid "8c54c939-1377-4eff-b06f-ee6c5f078bc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INTB" output
+			(at 174.625 118.11 180)
+			(uuid "bb808661-dd12-4ed3-8593-98d267bd6385")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LoTiBloxy"
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.155 104.14)
+		(size 41.275 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f908092c-6372-468f-b828-5098d503a27b")
+		(property "Sheetname" "MCU"
+			(at 97.155 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 97.155 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LoTiBloxy"
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

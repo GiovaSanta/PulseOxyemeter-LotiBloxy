@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Capacitor_SMD_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/Capacitor_SMD_local.pretty")(options "")(descr ""))
+  (lib (name "Resistor_SMD_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/Resistor_SMD_local.pretty")(options "")(descr ""))
+  (lib (name "ul_MAXM86161EFD-T_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/ul_MAXM86161EFD-T_local.pretty")(options "")(descr ""))
+  (lib (name "MCU_CC2640R2FRSMR_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/MCU_CC2640R2FRSMR_local.pretty")(options "")(descr ""))
+)
