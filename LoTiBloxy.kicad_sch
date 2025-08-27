@@ -13,67 +13,67 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 167.005 118.11) (xy 174.625 118.11)
+			(xy 158.75 102.87) (xy 165.1 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40c655c7-e360-430c-9a8c-18558e9489ad")
+		(uuid "1ba6f9fc-d4e8-43f2-b5e9-716b8fa087fd")
 	)
 	(wire
 		(pts
-			(xy 167.005 115.57) (xy 174.625 115.57)
+			(xy 158.75 105.41) (xy 165.1 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9712dda0-d059-4268-82b4-cd943b51c946")
+		(uuid "874cf600-405d-4f18-a87d-0d21529188e0")
 	)
 	(wire
 		(pts
-			(xy 167.005 113.03) (xy 174.625 113.03)
+			(xy 158.75 107.95) (xy 165.1 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acc11ec8-198c-41e0-a6d6-ae899b79d90d")
+		(uuid "ceec2d94-daa4-4604-b113-42b4c75760de")
 	)
 	(label "SCL"
-		(at 167.64 115.57 0)
+		(at 158.75 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "284f39d5-b878-4f8a-acba-bf03f2faaaae")
+		(uuid "30e05953-9dff-45ee-8b91-2890a04118d0")
 	)
 	(label "INTB"
-		(at 167.64 118.11 0)
+		(at 158.75 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "99edcc49-d2f6-4524-8402-453a6aa52ded")
+		(uuid "c5b21e4d-265f-4545-8412-8457329410ff")
 	)
 	(label "SDA"
-		(at 167.64 113.03 0)
+		(at 158.75 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f16d539e-0331-410a-808d-a85aee8dc88a")
+		(uuid "dae2abd2-ef2a-4de4-8eef-76773f099425")
 	)
 	(sheet
-		(at 174.625 105.41)
-		(size 41.275 39.37)
+		(at 92.075 52.705)
+		(size 43.815 31.115)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -86,9 +86,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "896ded2f-b8a8-473c-ab14-4db8b592f664")
-		(property "Sheetname" "Sensor"
-			(at 174.625 104.6984 0)
+		(uuid "3e247ce7-971c-47cf-a159-3b0bea3b6f45")
+		(property "Sheetname" "PowerSection"
+			(at 92.075 51.9934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,8 +96,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "sensor.kicad_sch"
-			(at 174.625 145.3646 0)
+		(property "Sheetfile" "PowerSection.kicad_sch"
+			(at 92.075 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,47 +105,17 @@
 				(justify left top)
 			)
 		)
-		(pin "SDA" bidirectional
-			(at 174.625 113.03 180)
-			(uuid "1d9fd847-87bf-4d0a-9f49-fce0d8a1627a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SCL" input
-			(at 174.625 115.57 180)
-			(uuid "8c54c939-1377-4eff-b06f-ee6c5f078bc0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "INTB" output
-			(at 174.625 118.11 180)
-			(uuid "bb808661-dd12-4ed3-8593-98d267bd6385")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "LoTiBloxy"
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 97.155 104.14)
-		(size 41.275 40.64)
+		(at 91.44 99.06)
+		(size 41.91 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -158,9 +128,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f908092c-6372-468f-b828-5098d503a27b")
+		(uuid "4d157fd5-e254-434d-99a3-bcb1217591fb")
 		(property "Sheetname" "MCU"
-			(at 97.155 103.4284 0)
+			(at 91.44 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +139,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 97.155 145.3646 0)
+			(at 91.44 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,6 +151,78 @@
 			(project "LoTiBloxy"
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 96.52)
+		(size 31.75 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5e91bf2c-c95a-476c-a08f-ab4b99c63ecc")
+		(property "Sheetname" "sensor"
+			(at 165.1 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 165.1 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 165.1 102.87 180)
+			(uuid "0636f45b-1ced-48ac-a6a8-be16d61eee6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 165.1 105.41 180)
+			(uuid "9b11f68f-b2f2-4d24-b23f-02c383596eb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INTB" output
+			(at 165.1 107.95 180)
+			(uuid "4a055c40-064d-4efe-988b-25c20425e016")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LoTiBloxy"
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62"
+					(page "2")
 				)
 			)
 		)

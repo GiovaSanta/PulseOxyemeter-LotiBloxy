@@ -431,12 +431,16 @@
       "Root"
     ],
     [
-      "896ded2f-b8a8-473c-ab14-4db8b592f664",
-      "Sensor"
+      "5e91bf2c-c95a-476c-a08f-ab4b99c63ecc",
+      "sensor"
     ],
     [
-      "f908092c-6372-468f-b828-5098d503a27b",
+      "4d157fd5-e254-434d-99a3-bcb1217591fb",
       "MCU"
+    ],
+    [
+      "3e247ce7-971c-47cf-a159-3b0bea3b6f45",
+      "PowerSection"
     ]
   ],
   "text_variables": {}
