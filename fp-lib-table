@@ -20,4 +20,6 @@
   (lib (name "ul_BatteryConnector_B2B-PH-SM4-TB-LF-SN_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/ul_BatteryConnector_B2B-PH-SM4-TB-LF-SN_local.pretty")(options "")(descr ""))
   (lib (name "rightAngleOnOff_JS102011JAQN_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/rightAngleOnOff_JS102011JAQN_local.pretty")(options "")(descr ""))
   (lib (name "nmos_DMN2300UFB4_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/nmos_DMN2300UFB4_local.pretty")(options "")(descr ""))
+  (lib (name "ul_crystal32768_SC20S-12-5PF20PPM_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/ul_crystal32768_SC20S-12-5PF20PPM_local.pretty")(options "")(descr ""))
+  (lib (name "Inductor_SMD_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/footprints/Inductor_SMD_local.pretty")(options "")(descr ""))
 )

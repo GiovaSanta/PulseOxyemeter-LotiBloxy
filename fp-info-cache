@@ -1,4 +1,4 @@
-26471875871289684
+26489434500183551
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -384,6 +384,13 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+BatteryCharger_MCP73831T_local
+mcp73831T_SOT-23-5
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -105650,6 +105657,20 @@ Switch_Tactile_SMD_B3U-1000P
 0
 2
 2
+nmos_DMN2300UFB4_local
+Diodes_Inc.-X2-DFN1006-3-04_2017-0-MFG
+
+
+0
+3
+3
+rightAngleOnOff_JS102011JAQN_local
+SW_JS102011JAQN
+
+
+0
+6
+6
 ul_2nH_0402_LQG15HS2N0S02D_local
 IND_LQG15_MUR
 
@@ -105734,6 +105755,13 @@ ECS-240-8-36-RWN-TR
 0
 4
 4
+ul_BatteryConnector_B2B-PH-SM4-TB-LF-SN_local
+CONN_B2B-PH-SM4-TBLFSN_JST
+
+B2B-PH-SM4-TBLFSN 
+0
+4
+4
 ul_MAXM86161EFD-T_local
 ul_MAXM86161EFD-T
 
@@ -105741,6 +105769,27 @@ MAXM86161EFD+T
 0
 14
 14
+ul_battChargerMCP73831T-2ATI-OT_local
+SOT-23-5_MC_MCH
+
+MCP73831T-2ATI/OT 
+0
+5
+5
+ul_battChargerMCP73831T-2ATI-OT_local
+SOT-23-5_MC_MCH-L
+
+MCP73831T-2ATI/OT 
+0
+5
+5
+ul_battChargerMCP73831T-2ATI-OT_local
+SOT-23-5_MC_MCH-M
+
+MCP73831T-2ATI/OT 
+0
+5
+5
 ul_buckConv_TPS62840DLCR_local
 VSON8_2P1X1P6_TEX
 
@@ -105762,6 +105811,34 @@ TPS62840DLCR
 0
 8
 8
+ul_chargingLED_SML_P11UTT86_0402_local
+LED_SML-P12UT_ROM
+
+SML-P11UTT86 
+0
+2
+2
+ul_chargingLED_SML_P11UTT86_0402_local
+LED_SML-P12UT_ROM-L
+
+SML-P11UTT86 
+0
+2
+2
+ul_chargingLED_SML_P11UTT86_0402_local
+LED_SML-P12UT_ROM-M
+
+SML-P11UTT86 
+0
+2
+2
+ul_crystal32768_SC20S-12-5PF20PPM_local
+XTAL_SC-20S_EPS
+
+SC20S-12.5PF20PPM 
+0
+2
+2
 ul_ferriteBead_BLM18HE152SN1D_local
 IND_BLM18_0603_MUR
 
@@ -105785,13 +105862,6 @@ BLM18HE152SN1D
 2
 ul_microUSB_1051640001_local
 CON00906_5_MOL
-
-1051640001 
-0
-11
-11
-ul_microUSB_1051640001_local
-CON00906_5_MOLfuck
 
 1051640001 
 0

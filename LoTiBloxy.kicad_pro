@@ -229,7 +229,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -361,29 +361,401 @@
         },
         {
           "group_by": false,
-          "label": "Purpose",
-          "name": "Purpose",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Detail_Page",
+          "name": "DK_Detail_Page",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Digi-Key_PN",
+          "name": "Digi-Key_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Family",
+          "name": "Family",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Status",
+          "name": "Status",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "automotive",
+          "name": "automotive",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "category",
+          "name": "category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "continuous drain current",
+          "name": "continuous drain current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "depletion mode",
+          "name": "depletion mode",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L1",
+          "name": "device class L1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L2",
+          "name": "device class L2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L3",
+          "name": "device class L3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey description",
+          "name": "digikey description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey part number",
+          "name": "digikey part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "drain to source breakdown voltage",
+          "name": "drain to source breakdown voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "drain to source resistance",
+          "name": "drain to source resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "drain to source voltage",
+          "name": "drain to source voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "footprint url",
+          "name": "footprint url",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "gate charge at vgs",
+          "name": "gate charge at vgs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "gate to source voltage",
+          "name": "gate to source voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "height",
+          "name": "height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input capacitace at vds",
+          "name": "input capacitace at vds",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lead free",
+          "name": "lead free",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "library id",
+          "name": "library id",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer",
+          "name": "manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "max forward diode voltage",
+          "name": "max forward diode voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "max junction temp",
+          "name": "max junction temp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mouser description",
+          "name": "mouser description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mouser part number",
+          "name": "mouser part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number of N channels",
+          "name": "number of N channels",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "number of channels",
+          "name": "number of channels",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "package",
+          "name": "package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "power dissipation",
+          "name": "power dissipation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "pulse drain current",
+          "name": "pulse drain current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rohs",
+          "name": "rohs",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "rthja max",
+          "name": "rthja max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "standoff height",
+          "name": "standoff height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temperature range high",
+          "name": "temperature range high",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temperature range low",
+          "name": "temperature range low",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "threshold vgs max",
+          "name": "threshold vgs max",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "threshold vgs min",
+          "name": "threshold vgs min",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "turn off delay time",
+          "name": "turn off delay time",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "turn on delay time",
+          "name": "turn on delay time",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "typ forward diode voltage",
+          "name": "typ forward diode voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK_Datasheet_Link",
+          "name": "DK_Datasheet_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mounting type",
+          "name": "mounting type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "vendor",
+          "name": "vendor",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "vendor part number",
+          "name": "vendor part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purpose",
+          "name": "Purpose",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -391,7 +763,18 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "mounting type",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "vendor part number",
+          "url": false,
+          "visible": false
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -413,6 +796,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,

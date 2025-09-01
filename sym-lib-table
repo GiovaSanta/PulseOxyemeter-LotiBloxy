@@ -6,7 +6,6 @@
   (lib (name "power_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/power_local.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_CC2640R2FRSMR_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/MCU_CC2640R2FRSMR_local.kicad_sym")(options "")(descr ""))
   (lib (name "antenna_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/antenna_local.kicad_sym")(options "")(descr ""))
-  (lib (name "2nH_inductor_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/2nH_inductor_local.kicad_sym")(options "")(descr ""))
   (lib (name "15nH_inductor_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/15nH_inductor_local.kicad_sym")(options "")(descr ""))
   (lib (name "ul_ferrite_bead_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/ul_ferrite_bead_local.kicad_sym")(options "")(descr ""))
   (lib (name "10nH_inductor_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/10nH_inductor_local.kicad_sym")(options "")(descr ""))
@@ -24,4 +23,5 @@
   (lib (name "rightAngleOnOff_JS102011JAQN_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/rightAngleOnOff_JS102011JAQN_local.kicad_sym")(options "")(descr ""))
   (lib (name "dk_Ferrite-Beads-and-Chips_local")(type "Legacy")(uri "${KIPRJMOD}/Libraries/symbols/dk_Ferrite-Beads-and-Chips_local.lib")(options "")(descr ""))
   (lib (name "nmos_DMN2300UFB4_local")(type "Legacy")(uri "${KIPRJMOD}/Libraries/symbols/nmos_DMN2300UFB4_local.lib")(options "")(descr ""))
+  (lib (name "inductor_local")(type "KiCad")(uri "${KIPRJMOD}/Libraries/symbols/inductor_local.kicad_sym")(options "")(descr ""))
 )
