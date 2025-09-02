@@ -5,6 +5,284 @@
 	(uuid "4576726d-daa9-42b1-9078-ba4a62386428")
 	(paper "A4")
 	(lib_symbols
+		(symbol "C_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at -4.572 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at -4.572 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power_local:GND"
 			(power)
 			(pin_numbers
@@ -355,7 +633,7 @@
 				)
 			)
 			(property "Footprint" "21-100309A_MXM"
-				(at 0 0 0)
+				(at 25.4 -24.384 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -365,7 +643,7 @@
 				)
 			)
 			(property "Datasheet" "MAXM86161EFD+T"
-				(at 0 0 0)
+				(at 25.654 -26.924 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -512,42 +790,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "VLDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "VLED"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin unspecified line
 					(at 0 -12.7 0)
 					(length 7.62)
@@ -584,24 +826,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 50.8 0 180)
-					(length 7.62)
-					(name "INTB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
 					(at 50.8 -2.54 180)
 					(length 7.62)
@@ -621,6 +845,80 @@
 					)
 				)
 				(pin unspecified line
+					(at 50.8 -15.24 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MAXM86161EFD+T_1_1"
+				(pin power_out line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "VLDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VLED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 50.8 0 180)
+					(length 7.62)
+					(name "INTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
 					(at 50.8 -5.08 180)
 					(length 7.62)
 					(name "VREF"
@@ -638,7 +936,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 50.8 -7.62 180)
 					(length 7.62)
 					(name "GND_ANA"
@@ -656,7 +954,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_in line
 					(at 50.8 -10.16 180)
 					(length 7.62)
 					(name "GND_DIG"
@@ -674,7 +972,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 50.8 -12.7 180)
 					(length 7.62)
 					(name "PGND"
@@ -685,24 +983,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 50.8 -15.24 180)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -760,7 +1040,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+				(at -4.572 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -976,16 +1256,10 @@
 		(uuid "fab7c814-a9f5-45fd-a61a-ab12279c5611")
 	)
 	(junction
-		(at 115.57 96.52)
+		(at 121.92 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0fc9f371-0da5-49c0-82e5-48dd50cd50e1")
-	)
-	(junction
-		(at 115.57 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e234997-f12f-493d-a7eb-a82073cf1f41")
+		(uuid "287618ef-822d-4d13-be1e-0d667fed7ee1")
 	)
 	(junction
 		(at 49.53 96.52)
@@ -994,22 +1268,10 @@
 		(uuid "556d0bc9-d7a0-49ac-a019-891b35a014f8")
 	)
 	(junction
-		(at 121.92 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "710d15da-1d88-428c-abb1-3102a600bf47")
-	)
-	(junction
 		(at 215.9 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81c0d763-7220-4d69-926e-2ca7cb601446")
-	)
-	(junction
-		(at 115.57 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae3f36c9-7e7f-4a4c-9ece-d94452fd4cf2")
 	)
 	(junction
 		(at 223.52 88.9)
@@ -1024,10 +1286,16 @@
 		(uuid "c8673345-c56e-4995-b7fd-1341ece8ee3d")
 	)
 	(junction
-		(at 121.92 96.52)
+		(at 121.92 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6425fc3-299e-4dc6-94bd-e42a81e5af46")
+		(uuid "e979b57a-e6b7-42b9-89c4-55a0ebdc0750")
+	)
+	(junction
+		(at 35.56 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec2735b6-e864-4252-91e4-952683410cb1")
 	)
 	(no_connect
 		(at 119.38 88.9)
@@ -1084,6 +1352,16 @@
 			(type default)
 		)
 		(uuid "0d014e3e-62c6-44c9-80d7-d8336b1b7fe4")
+	)
+	(wire
+		(pts
+			(xy 121.92 96.52) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d718768-65ee-4c13-bd0a-42346bae7732")
 	)
 	(wire
 		(pts
@@ -1157,13 +1435,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 93.98) (xy 115.57 93.98)
+			(xy 115.57 96.52) (xy 121.92 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4092ed57-236e-4c1e-9192-b079614da1c5")
+		(uuid "41442f9c-13ae-4c4f-bd2f-d258cc831269")
 	)
 	(wire
 		(pts
@@ -1184,16 +1462,6 @@
 			(type default)
 		)
 		(uuid "56fa5fc6-722d-48a4-9e7c-67cbf98920ce")
-	)
-	(wire
-		(pts
-			(xy 121.92 96.52) (xy 121.92 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e87d92-1a2d-451a-9e57-f945a709a3f8")
 	)
 	(wire
 		(pts
@@ -1237,16 +1505,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 99.06) (xy 115.57 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69320f4d-ea73-4c3d-89b9-cf934dc0718e")
-	)
-	(wire
-		(pts
 			(xy 115.57 91.44) (xy 128.27 91.44)
 		)
 		(stroke
@@ -1257,13 +1515,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 121.92 93.98)
+			(xy 121.92 99.06) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7245f085-835c-4379-b0ea-18727b058529")
+		(uuid "775e2583-8513-4e65-92b1-9e64829ad41a")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 121.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ced08f-c2a0-401d-8a12-2f6e8d297e78")
 	)
 	(wire
 		(pts
@@ -1377,16 +1645,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 96.52) (xy 115.57 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae6e211c-40bd-410a-8504-e44e0406b514")
-	)
-	(wire
-		(pts
 			(xy 60.96 88.9) (xy 64.77 88.9)
 		)
 		(stroke
@@ -1414,16 +1672,6 @@
 			(type default)
 		)
 		(uuid "bf538319-33ba-4749-9f4e-ee6b4ff3f1cc")
-	)
-	(wire
-		(pts
-			(xy 121.92 99.06) (xy 121.92 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c10fba15-62fe-4677-8dfb-dda2164cf2c7")
 	)
 	(wire
 		(pts
@@ -1497,23 +1745,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 105.41) (xy 35.56 110.49)
+			(xy 35.56 105.41) (xy 35.56 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed56541e-4c4d-42ee-bb00-ad356ba1b54a")
-	)
-	(wire
-		(pts
-			(xy 115.57 99.06) (xy 121.92 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1cd00c7-fecc-45c0-9719-ada36af86729")
 	)
 	(wire
 		(pts
@@ -1537,16 +1775,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 121.92 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f93fcc6c-2104-423e-aad5-fcdcb43473b7")
-	)
-	(wire
-		(pts
 			(xy 49.53 106.68) (xy 49.53 110.49)
 		)
 		(stroke
@@ -1554,6 +1782,26 @@
 			(type default)
 		)
 		(uuid "fc631e34-9685-428c-8c1d-a3682d240476")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 121.92 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde7f4b3-fa2b-4d32-bd32-011b059feabd")
+	)
+	(wire
+		(pts
+			(xy 35.56 109.22) (xy 35.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5d7eb8-2e98-4cc8-a552-ee3cd2479645")
 	)
 	(image
 		(at 89.535 120.65)
@@ -2050,6 +2298,16 @@
 		)
 		(uuid "2851039e-fc7e-4988-a448-989022153bb1")
 	)
+	(label "VREF"
+		(at 121.92 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "291a25be-9fdf-4ff7-83f6-24289964ad87")
+	)
 	(label "SCL"
 		(at 60.96 88.9 0)
 		(effects
@@ -2381,7 +2639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "8.95"
+		(property "Price" "8.95 €"
 			(at 64.77 86.36 0)
 			(effects
 				(font
@@ -2633,7 +2891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -2782,7 +3040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 35.56 101.6 0)
 			(effects
 				(font
@@ -3048,6 +3306,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power_local:PWR_FLAG")
+		(at 35.56 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c85a98-1fe1-4d1f-9c3d-3b89ff7978f8")
+		(property "Reference" "#FLG04"
+			(at 37.465 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afdd4195-bd94-4461-982b-70ef4e165d69")
+		)
+		(instances
+			(project ""
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/5e91bf2c-c95a-476c-a08f-ab4b99c63ecc"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_2")
 		(lib_id "unpolarizedcapacitor:C")
 		(at 49.53 102.87 0)
 		(unit 1)
@@ -3128,7 +3454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.10"
+		(property "Price" "0.10 €"
 			(at 49.53 102.87 0)
 			(effects
 				(font
@@ -3197,6 +3523,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "unpolarizedcapacitor:C")
 		(at 128.27 97.79 0)
 		(unit 1)
@@ -3278,7 +3605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 128.27 97.79 0)
 			(effects
 				(font
@@ -3492,7 +3819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 223.52 93.98 0)
 			(effects
 				(font
@@ -3641,7 +3968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 215.9 90.17 0)
 			(effects
 				(font

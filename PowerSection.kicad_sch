@@ -5,6 +5,1023 @@
 	(uuid "2aef5e9d-772e-41bc-88eb-045a8b4cca5c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "C_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at -4.572 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at -4.572 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_2_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_2_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at -4.572 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_3_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_3_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "C_4"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at -4.572 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_4_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_4_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JS102011JAQN_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S2"
+				(at -4.826 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "JS102011JAQN"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "rightAngleOnOff_JS102011JAQN_local:SW_JS102011JAQN"
+				(at 0.254 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "kicad-embed://js.pdf"
+				(at 0 -39.878 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
+				(at 1.27 -38.354 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "C&K"
+				(at -1.016 -15.494 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
+				(at -2.286 -17.526 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "-"
+				(at -1.016 -29.972 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.80 €"
+				(at -1.27 -11.43 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=eda"
+				(at -1.524 -23.114 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "29 June 16"
+				(at -1.016 -13.462 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=snap"
+				(at -1.016 -20.066 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "JS102011JAQN"
+				(at -1.016 -32.258 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -1.524 -37.084 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "C&K"
+				(at -0.762 -35.052 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "JS102011JAQN"
+				(at -2.286 -46.228 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at -2.286 -48.514 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at -2.286 -50.546 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD"
+				(at -2.54 -41.91 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "CKN10720CT-ND"
+				(at -1.778 -43.688 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JS102011JAQN_1_0_0"
+				(rectangle
+					(start 0.508 -0.254)
+					(end 2.286 3.302)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 4.572 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 4.572 -1.524) (xy 3.81 -2.54) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -1.778) (xy 4.064 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.302) (xy 3.81 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.032) (xy 3.556 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -1.524) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JS102011JAQN_1_1_0"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1.1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2.1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3.1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED_local:LED"
 			(pin_numbers
 				(hide yes)
@@ -195,8 +1212,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J3"
-				(at -1.524 11.684 0)
+			(property "Reference" "J?"
+				(at 0 11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -204,7 +1221,7 @@
 				)
 			)
 			(property "Value" "USB_B_Micro"
-				(at -1.27 9.652 0)
+				(at -0.254 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -212,7 +1229,8 @@
 				)
 			)
 			(property "Footprint" "ul_microUSB_1051640001_local:CON00906_5_MOL"
-				(at 3.81 -1.27 0)
+				(at 3.048 -12.192 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -220,8 +1238,9 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 3.81 -1.27 0)
+			(property "Datasheet" "kicad-embed://1051640001.pdf"
+				(at 3.81 -29.21 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -229,8 +1248,9 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Micro Type B connector"
-				(at 0 0 0)
+			(property "Description" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle Through Hole"
+				(at 0 -9.652 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -238,12 +1258,83 @@
 					(hide yes)
 				)
 			)
-			(property "Purpose" ""
-				(at 0 0 0)
+			(property "MANUFACTURER" "Molex"
+				(at -0.254 -23.114 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "1051640001"
+				(at 0.508 -27.432 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "-"
+				(at -0.508 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.8"
+				(at -0.762 -13.97 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at -1.016 -20.828 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at -0.508 -16.256 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD, TH"
+				(at 0.508 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "WM11263CT-ND"
+				(at -0.254 -18.796 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector USB micro"
@@ -266,8 +1357,8 @@
 			)
 			(symbol "USB_B_Micro_0_1"
 				(rectangle
-					(start -8.89 -4.953)
-					(end -8.128 -5.207)
+					(start -7.62 -4.953)
+					(end -6.858 -5.207)
 					(stroke
 						(width 0)
 						(type default)
@@ -277,7 +1368,7 @@
 					)
 				)
 				(circle
-					(center -7.62 2.794)
+					(center -6.35 2.794)
 					(radius 0.635)
 					(stroke
 						(width 0.254)
@@ -289,7 +1380,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.985 2.794) (xy -6.35 2.794) (xy -5.08 4.064) (xy -4.445 4.064)
+						(xy -5.715 2.794) (xy -5.08 2.794) (xy -3.81 4.064) (xy -3.175 4.064)
 					)
 					(stroke
 						(width 0.254)
@@ -301,8 +1392,8 @@
 				)
 				(polyline
 					(pts
-						(xy -6.604 6.477) (xy -6.604 6.223) (xy -6.35 5.461) (xy -6.35 5.207) (xy -3.556 5.207) (xy -3.556 5.461)
-						(xy -3.302 6.223) (xy -3.302 6.477) (xy -6.604 6.477)
+						(xy -5.334 6.477) (xy -5.334 6.223) (xy -5.08 5.461) (xy -5.08 5.207) (xy -2.286 5.207) (xy -2.286 5.461)
+						(xy -2.032 6.223) (xy -2.032 6.477) (xy -5.334 6.477)
 					)
 					(stroke
 						(width 0)
@@ -314,7 +1405,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.35 2.794) (xy -5.715 2.794) (xy -5.08 1.524) (xy -3.81 1.524)
+						(xy -5.08 2.794) (xy -4.445 2.794) (xy -3.81 1.524) (xy -2.54 1.524)
 					)
 					(stroke
 						(width 0.254)
@@ -326,7 +1417,7 @@
 				)
 				(polyline
 					(pts
-						(xy -6.223 6.223) (xy -3.683 6.223) (xy -3.937 5.461) (xy -5.969 5.461) (xy -6.223 6.223)
+						(xy -4.953 6.223) (xy -2.413 6.223) (xy -2.667 5.461) (xy -4.699 5.461) (xy -4.953 6.223)
 					)
 					(stroke
 						(width 0)
@@ -338,7 +1429,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.715 2.794) (xy -3.175 2.794)
+						(xy -4.445 2.794) (xy -1.905 2.794)
 					)
 					(stroke
 						(width 0.254)
@@ -349,7 +1440,7 @@
 					)
 				)
 				(circle
-					(center -4.445 4.064)
+					(center -3.175 4.064)
 					(radius 0.381)
 					(stroke
 						(width 0.254)
@@ -360,8 +1451,8 @@
 					)
 				)
 				(rectangle
-					(start -4.191 1.651)
-					(end -3.429 0.889)
+					(start -2.921 1.651)
+					(end -2.159 0.889)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -372,7 +1463,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 3.429) (xy -3.175 2.159) (xy -1.905 2.794) (xy -3.175 3.429)
+						(xy -1.905 3.429) (xy -1.905 2.159) (xy -0.635 2.794) (xy -1.905 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -383,8 +1474,8 @@
 					)
 				)
 				(rectangle
-					(start 5.08 4.953)
-					(end 4.318 5.207)
+					(start 6.35 4.953)
+					(end 5.588 5.207)
 					(stroke
 						(width 0)
 						(type default)
@@ -394,8 +1485,8 @@
 					)
 				)
 				(rectangle
-					(start 5.08 -0.127)
-					(end 4.318 0.127)
+					(start 6.35 -0.127)
+					(end 5.588 0.127)
 					(stroke
 						(width 0)
 						(type default)
@@ -405,8 +1496,8 @@
 					)
 				)
 				(rectangle
-					(start 5.08 -2.667)
-					(end 4.318 -2.413)
+					(start 6.35 -2.667)
+					(end 5.588 -2.413)
 					(stroke
 						(width 0)
 						(type default)
@@ -416,8 +1507,8 @@
 					)
 				)
 				(rectangle
-					(start 5.08 -5.207)
-					(end 4.318 -4.953)
+					(start 6.35 -5.207)
+					(end 5.588 -4.953)
 					(stroke
 						(width 0)
 						(type default)
@@ -429,8 +1520,8 @@
 			)
 			(symbol "USB_B_Micro_1_1"
 				(rectangle
-					(start -8.89 8.255)
-					(end 5.08 -6.985)
+					(start -7.62 8.255)
+					(end 6.35 -6.985)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -441,7 +1532,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -2.54 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "Shield"
 						(effects
@@ -458,8 +1549,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -11.43 -5.08 0)
+				(pin power_in line
+					(at -10.16 -5.08 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -476,8 +1567,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 5.08 180)
+				(pin power_in line
+					(at 8.89 5.08 180)
 					(length 2.54)
 					(name "VBUS"
 						(effects
@@ -495,7 +1586,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 7.62 0 180)
+					(at 8.89 0 180)
 					(length 2.54)
 					(name "D+"
 						(effects
@@ -513,7 +1604,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 7.62 -2.54 180)
+					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "D-"
 						(effects
@@ -531,7 +1622,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 8.89 -5.08 180)
 					(length 2.54)
 					(name "ID"
 						(effects
@@ -567,25 +1658,16 @@
 				)
 			)
 			(property "Value" "BLM18AG601SN1D"
-				(at 0 -3.81 0)
+				(at -0.254 -3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:0603"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf"
-				(at 5.08 7.62 0)
+			(property "Footprint" "ul_ferriteBead_BLM18HE152SN1D_local:IND_BLM18_0603_MUR"
+				(at -31.75 -24.384 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -594,25 +1676,30 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Datasheet" "kicad-embed://ENFA0003.pdf"
+				(at -12.7 -27.178 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 500mA 380mOhm"
+				(at 0.508 -7.366 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Digi-Key_PN" "490-1014-1-ND"
-				(at 5.08 10.16 0)
+				(at -8.89 -29.972 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -622,7 +1709,8 @@
 				)
 			)
 			(property "MPN" "BLM18AG601SN1D"
-				(at 5.08 12.7 0)
+				(at -8.636 -33.274 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -632,7 +1720,8 @@
 				)
 			)
 			(property "Category" "Filters"
-				(at 5.08 15.24 0)
+				(at -2.794 -36.576 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -642,7 +1731,8 @@
 				)
 			)
 			(property "Family" "Ferrite Beads and Chips"
-				(at 5.08 17.78 0)
+				(at -11.938 -39.624 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -652,7 +1742,8 @@
 				)
 			)
 			(property "DK_Datasheet_Link" "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf"
-				(at 5.08 20.32 0)
+				(at -42.926 -42.164 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -662,7 +1753,8 @@
 				)
 			)
 			(property "DK_Detail_Page" "/product-detail/en/murata-electronics-north-america/BLM18AG601SN1D/490-1014-1-ND/584462"
-				(at 5.08 22.86 0)
+				(at -54.102 -44.958 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -672,7 +1764,8 @@
 				)
 			)
 			(property "Description_1" "FERRITE BEAD 600 OHM 0603 1LN"
-				(at 5.08 25.4 0)
+				(at -19.812 -48.006 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -682,7 +1775,8 @@
 				)
 			)
 			(property "Manufacturer" "Murata Electronics North America"
-				(at 5.08 27.94 0)
+				(at -16.764 -51.054 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -692,12 +1786,83 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 5.08 30.48 0)
+				(at -2.54 -54.102 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at 0.762 -11.684 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at -0.254 -9.652 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.09 €"
+				(at 0.762 -13.716 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at 0 -15.494 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at 0 -21.844 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD"
+				(at -0.254 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "490-1014-1-ND"
+				(at 0 -20.066 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -788,7 +1953,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "FB1"
-				(at 0 3.81 0)
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -803,8 +1968,9 @@
 					)
 				)
 			)
-			(property "Footprint" "digikey-footprints:0603"
-				(at 5.08 5.08 0)
+			(property "Footprint" "ul_ferriteBead_BLM18HE152SN1D_local:IND_BLM18_0603_MUR"
+				(at -23.622 -30.988 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -813,8 +1979,9 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf"
-				(at 5.08 7.62 0)
+			(property "Datasheet" "kicad-embed://ENFA0004.pdf"
+				(at -23.622 -28.448 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -823,25 +1990,19 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0603 (1608 Metric) 500mA 500mOhm"
+				(at 20.066 -33.528 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "Digi-Key_PN" "490-5216-1-ND"
-				(at 5.08 10.16 0)
+				(at -23.622 -25.908 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -851,7 +2012,8 @@
 				)
 			)
 			(property "MPN" "BLM18HE152SN1D"
-				(at 5.08 12.7 0)
+				(at -23.622 -23.368 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -861,7 +2023,8 @@
 				)
 			)
 			(property "Category" "Filters"
-				(at 5.08 15.24 0)
+				(at -23.622 -20.828 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -871,7 +2034,8 @@
 				)
 			)
 			(property "Family" "Ferrite Beads and Chips"
-				(at 5.08 17.78 0)
+				(at -23.622 -18.288 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -881,7 +2045,8 @@
 				)
 			)
 			(property "DK_Datasheet_Link" "https://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf"
-				(at 5.08 20.32 0)
+				(at -23.622 -15.748 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -891,7 +2056,8 @@
 				)
 			)
 			(property "DK_Detail_Page" "/product-detail/en/murata-electronics-north-america/BLM18HE152SN1D/490-5216-1-ND/1948392"
-				(at 5.08 22.86 0)
+				(at -23.622 -13.208 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -901,7 +2067,8 @@
 				)
 			)
 			(property "Description_1" "FERRITE BEAD 1.5 KOHM 0603 1LN"
-				(at 5.08 25.4 0)
+				(at -23.622 -10.668 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -910,8 +2077,9 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata Electronics North America"
-				(at 5.08 27.94 0)
+			(property "Manufacturer" "Murata Electronics"
+				(at -23.622 -8.128 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -921,12 +2089,83 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 5.08 30.48 0)
+				(at -23.622 -5.588 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at -6.35 -35.814 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at -20.574 -47.244 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.18 €"
+				(at -19.812 -44.958 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at -21.336 -42.672 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at -19.812 -40.386 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD"
+				(at -13.462 -49.022 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "490-5216-1-ND"
+				(at -14.732 -38.1 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -1017,7 +2256,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U4"
-				(at -0.508 7.366 0)
+				(at 0.762 13.716 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1026,7 +2265,7 @@
 				)
 			)
 			(property "Value" "MCP73831T-2ACI_OT"
-				(at -11.43 5.08 0)
+				(at -10.668 -13.716 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1035,7 +2274,8 @@
 				)
 			)
 			(property "Footprint" "BatteryCharger_MCP73831T_local:mcp73831T_SOT-23-5"
-				(at 5.08 5.08 0)
+				(at -38.1 -42.926 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1044,8 +2284,9 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
-				(at 5.08 7.62 0)
+			(property "Datasheet" "kicad-embed://MCHPS05673-1.pdf"
+				(at -38.608 -40.132 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1054,8 +2295,9 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Charger IC Lithium Ion/Polymer SOT-23-5"
+				(at -10.922 -45.466 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1064,7 +2306,8 @@
 				)
 			)
 			(property "Digi-Key_PN" "MCP73831T-2ACI/OTCT-ND"
-				(at 5.08 10.16 0)
+				(at -38.608 -37.846 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1074,7 +2317,8 @@
 				)
 			)
 			(property "MPN" "MCP73831T-2ACI/OT"
-				(at 5.08 12.7 0)
+				(at -38.608 -35.306 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1084,7 +2328,8 @@
 				)
 			)
 			(property "Category" "Integrated Circuits (ICs)"
-				(at 5.08 15.24 0)
+				(at -38.862 -32.766 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1094,7 +2339,8 @@
 				)
 			)
 			(property "Family" "PMIC - Battery Chargers"
-				(at 5.08 17.78 0)
+				(at -39.116 -30.48 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1104,7 +2350,8 @@
 				)
 			)
 			(property "DK_Datasheet_Link" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
-				(at 5.08 20.32 0)
+				(at -39.37 -27.686 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1114,7 +2361,8 @@
 				)
 			)
 			(property "DK_Detail_Page" "/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802"
-				(at 5.08 22.86 0)
+				(at -39.624 -24.892 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1124,7 +2372,8 @@
 				)
 			)
 			(property "Description_1" "IC CONTROLLR LI-ION 4.2V SOT23-5"
-				(at 5.08 25.4 0)
+				(at -31.242 -22.606 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1134,7 +2383,8 @@
 				)
 			)
 			(property "Manufacturer" "Microchip Technology"
-				(at 5.08 27.94 0)
+				(at -31.242 -20.066 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1144,7 +2394,8 @@
 				)
 			)
 			(property "Status" "Active"
-				(at 5.08 30.48 0)
+				(at -38.608 -17.526 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1153,18 +2404,80 @@
 					(hide yes)
 				)
 			)
-			(property "Purpose" ""
-				(at 0 0 0)
+			(property "MANUFACTURER" "Microchip Technology"
+				(at -19.05 -50.292 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "Package" "-"
+				(at -31.75 -60.198 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.65 €"
+				(at -30.988 -56.388 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at -32.766 -54.356 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at -29.972 -52.578 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD"
+				(at -27.686 -58.166 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "MCP73831T-2ACI/OTCT-ND"
+				(at -14.224 -47.752 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "MCP73831T-2ACI_OT_1_1"
 				(rectangle
-					(start -7.62 1.905)
-					(end 7.62 -22.225)
+					(start -7.62 12.065)
+					(end 7.62 -12.065)
 					(stroke
 						(width 0)
 						(type solid)
@@ -1175,7 +2488,7 @@
 					)
 				)
 				(pin power_in line
-					(at -10.16 0 0)
+					(at -10.16 10.16 0)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -1193,7 +2506,7 @@
 					)
 				)
 				(pin output line
-					(at -10.16 -20.32 0)
+					(at -10.16 -10.16 0)
 					(length 2.54)
 					(name "STAT"
 						(effects
@@ -1211,7 +2524,7 @@
 					)
 				)
 				(pin power_out line
-					(at 10.16 0 180)
+					(at 10.16 10.16 180)
 					(length 2.54)
 					(name "VBAT"
 						(effects
@@ -1229,7 +2542,7 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -10.16 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "PROG"
 						(effects
@@ -1247,7 +2560,7 @@
 					)
 				)
 				(pin power_in line
-					(at 10.16 -20.32 180)
+					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "VSS"
 						(effects
@@ -1267,50 +2580,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "inductor_local:LQG15HS2N0S02D"
+		(symbol "inductor_local:L"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at 6.985 5.08 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LQG15HS2N0S02D"
-				(at 6.985 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "IND_LQG15_MUR"
-				(at 0 0 0)
+				(at -1.27 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "LQG15HS2N0S02D"
-				(at 0 0 0)
+			(property "Value" "L"
+				(at 1.905 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1319,15 +2616,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LQG15HS2N0S02D"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1336,7 +2625,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "IND_LQG15_MUR IND_LQG15_MUR-M IND_LQG15_MUR-L"
+			(property "Description" "Inductor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1345,13 +2634,31 @@
 					(hide yes)
 				)
 			)
-			(symbol "LQG15HS2N0S02D_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.54 1.27)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1359,23 +2666,11 @@
 					)
 				)
 				(arc
-					(start 2.54 1.27)
-					(mid 3.81 2.5344)
-					(end 5.08 1.27)
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 1.27)
-					)
-					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1383,23 +2678,11 @@
 					)
 				)
 				(arc
-					(start 5.08 1.27)
-					(mid 6.35 2.5344)
-					(end 7.62 1.27)
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
 					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 7.62 1.27)
-					)
-					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1407,74 +2690,22 @@
 					)
 				)
 				(arc
-					(start 7.62 1.27)
-					(mid 8.89 2.5344)
-					(end 10.16 1.27)
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
-						(width 0.2032)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 1.27)
-					(mid 11.43 2.5344)
-					(end 12.7 1.27)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 0) (xy 12.7 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 15.24 0 180)
-					(length 2.54)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
 					(name "1"
 						(effects
 							(font
@@ -1490,137 +2721,9 @@
 						)
 					)
 				)
-			)
-			(symbol "LQG15HS2N0S02D_1_2"
-				(arc
-					(start -1.27 10.16)
-					(mid -2.5344 11.43)
-					(end -1.27 12.7)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 7.62)
-					(mid -2.5344 8.89)
-					(end -1.27 10.16)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 5.08)
-					(mid -2.5344 6.35)
-					(end -1.27 7.62)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 2.54)
-					(mid -2.5344 3.81)
-					(end -1.27 5.08)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 12.7) (xy -1.27 12.7)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 10.16) (xy -1.27 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.08) (xy -1.27 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "2"
 						(effects
 							(font
@@ -1735,6 +2838,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power_local:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1864,410 +3068,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "rightAngleOnOff_JS102011JAQN_local:JS102011JAQN"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S2"
-				(at 6.35 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "JS102011JAQN"
-				(at 6.35 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "JS102011JAQN:SW_JS102011JAQN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Purpose" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MF" "C&K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "29 June 16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "JS102011JAQN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "C&K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "JS102011JAQN_0_0"
-				(rectangle
-					(start 0.508 -0.254)
-					(end 2.286 3.302)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 4.572 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 4.572 -1.524) (xy 3.81 -2.54) (xy 3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -1.778) (xy 4.064 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.302) (xy 3.81 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.032) (xy 3.556 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 -1.524) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1.1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2.1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3.1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "JS102011JAQN_1_0"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 255 1)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ul_BatteryConnector_B2B-PH-SM4-TB_local:B2B-PH-SM4-TBLFSN"
 			(pin_names
 				(offset 0.254)
@@ -2275,24 +3075,27 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
+			(property "Reference" "J2"
+				(at -0.254 5.588 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "B2B-PH-SM4-TBLFSN"
-				(at 0 0 0)
+				(at -11.43 -5.08 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "CONN_B2B-PH-SM4-TBLFSN_JST"
-				(at 0 0 0)
+			(property "Footprint" "ul_BatteryConnector_B2B-PH-SM4-TB-LF-SN_local:CONN_B2B-PH-SM4-TBLFSN_JST"
+				(at 1.27 -8.128 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2301,8 +3104,9 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "B2B-PH-SM4-TBLFSN"
-				(at 0 0 0)
+			(property "Datasheet" "kicad-embed://ePH.pdf"
+				(at -0.254 -10.16 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2311,8 +3115,9 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Connector Header Surface Mount 2 position 0.079\" (2.00mm)"
+				(at 1.27 -12.446 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2320,12 +3125,84 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "MANUFACTURER" "JST Sales America Inc."
+				(at -0.254 -17.018 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "B2B-PH-SM4-TB"
+				(at -1.524 -19.304 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "-"
+				(at -0.508 -30.988 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.40 €"
+				(at -0.508 -28.702 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at -1.016 -22.098 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at 0.762 -26.416 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD"
+				(at -0.762 -24.638 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "455-B2B-PH-SM4-TBCT-ND"
+				(at -1.27 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "B2B-PH-SM4-TB(LF)(SN)"
@@ -2349,7 +3226,7 @@
 			(symbol "B2B-PH-SM4-TBLFSN_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -5.08)
+						(xy -3.81 3.81) (xy -3.81 -3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2361,7 +3238,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -5.08) (xy 12.7 -5.08)
+						(xy -3.81 -3.81) (xy 3.81 -3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2373,7 +3250,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 5.08 0)
+						(xy 1.27 1.27) (xy -3.81 1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2385,7 +3262,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
+						(xy 1.27 1.27) (xy 0 2.1167)
 					)
 					(stroke
 						(width 0.127)
@@ -2397,7 +3274,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
+						(xy 1.27 1.27) (xy 0 0.4233)
 					)
 					(stroke
 						(width 0.127)
@@ -2409,7 +3286,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
+						(xy 1.27 -1.27) (xy -3.81 -1.27)
 					)
 					(stroke
 						(width 0.127)
@@ -2421,7 +3298,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+						(xy 1.27 -1.27) (xy 0 -0.4233)
 					)
 					(stroke
 						(width 0.127)
@@ -2433,7 +3310,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+						(xy 1.27 -1.27) (xy 0 -2.1167)
 					)
 					(stroke
 						(width 0.127)
@@ -2445,7 +3322,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
+						(xy 3.81 3.81) (xy -3.81 3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2457,7 +3334,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -5.08) (xy 12.7 2.54)
+						(xy 3.81 -3.81) (xy 3.81 3.81)
 					)
 					(stroke
 						(width 0.127)
@@ -2467,8 +3344,8 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 0 0 0)
+				(pin passive line
+					(at -8.89 1.27 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -2485,8 +3362,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
+				(pin passive line
+					(at -8.89 -1.27 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -2672,7 +3549,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U3"
-				(at 14.605 3.81 0)
+				(at 14.478 4.064 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2680,7 +3557,7 @@
 				)
 			)
 			(property "Value" "TPS62840DLCR"
-				(at 14.605 1.27 0)
+				(at 15.494 1.27 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2688,7 +3565,8 @@
 				)
 			)
 			(property "Footprint" "VSON8_2P1X1P6_TEX"
-				(at 0 2.286 0)
+				(at -12.954 -24.638 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2698,7 +3576,8 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/tps62840"
-				(at -3.302 5.08 0)
+				(at -9.398 -27.432 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2707,8 +3586,9 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "Buck Switching Regulator IC Positive Adjustable 1.8V 1 Output 750mA 8-VFDFN"
+				(at 4.318 -16.256 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2716,20 +3596,84 @@
 					(hide yes)
 				)
 			)
-			(property "Purpose" ""
-				(at 0 0 0)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at -11.938 -21.336 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "MPN" "TPS62840DLCR"
+				(at -12.446 -30.988 0)
+				(show_name)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "Package" "8-VFDFN"
+				(at -13.716 -14.478 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "1.79 €"
+				(at -13.462 -39.624 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at -13.208 -41.148 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at -12.7 -33.782 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD"
+				(at -13.462 -36.576 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "296-TPS62840DLCRCT-ND"
+				(at -9.398 -19.05 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "TPS62840DLCR"
@@ -2799,7 +3743,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "TPS62840DLCR_1_1"
+				(pin power_in line
 					(at 0 -2.54 0)
 					(length 7.62)
 					(name "VIN"
@@ -2817,26 +3763,8 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -5.08 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
 					(length 7.62)
 					(name "MODE"
 						(effects
@@ -2853,7 +3781,25 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin input line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 0 -10.16 0)
 					(length 7.62)
 					(name "GND"
@@ -2871,7 +3817,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 29.21 -2.54 180)
 					(length 7.62)
 					(name "VOS"
@@ -2889,7 +3835,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at 29.21 -5.08 180)
 					(length 7.62)
 					(name "SW"
@@ -2907,7 +3853,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 29.21 -7.62 180)
 					(length 7.62)
 					(name "VSET"
@@ -2925,7 +3871,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 29.21 -10.16 180)
 					(length 7.62)
 					(name "STOP"
@@ -2993,7 +3939,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
+				(at -4.572 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3100,7 +4046,7 @@
 	)
 	(text "√"
 		(exclude_from_sim no)
-		(at 121.92 100.33 0)
+		(at 111.76 99.06 0)
 		(effects
 			(font
 				(size 6 6)
@@ -3126,7 +4072,7 @@
 	)
 	(text "√"
 		(exclude_from_sim no)
-		(at 107.95 116.84 0)
+		(at 102.87 116.84 0)
 		(effects
 			(font
 				(size 6 6)
@@ -3303,7 +4249,7 @@
 	)
 	(text "√"
 		(exclude_from_sim no)
-		(at 93.98 105.41 0)
+		(at 91.44 111.76 0)
 		(effects
 			(font
 				(size 6 6)
@@ -3472,12 +4418,6 @@
 		(uuid "2b58444b-0b8b-4469-92ea-c44f280ee3c6")
 	)
 	(junction
-		(at 22.86 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2dd27e29-4ff0-4950-a092-e4c59de4f35b")
-	)
-	(junction
 		(at 52.705 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3488,6 +4428,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ea518d2-d5ba-4369-91d2-a34b5a94df5b")
+	)
+	(junction
+		(at 98.425 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ad6b9aa-6052-419f-8826-d6f6f3203a9b")
 	)
 	(junction
 		(at 81.28 38.1)
@@ -3502,16 +4448,22 @@
 		(uuid "a3e33886-5abb-4a07-93c4-65f3542c690b")
 	)
 	(junction
-		(at 105.41 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b590a4ff-5483-4241-b8c1-b6311562ec3a")
-	)
-	(junction
 		(at 54.61 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b5bbd5-5399-47d8-b45b-c9630f46929f")
+	)
+	(junction
+		(at 100.33 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0a1f43-bbf4-42f8-8297-c7047f0bad80")
+	)
+	(junction
+		(at 24.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53fb506-f920-4063-9cc1-875a80875682")
 	)
 	(junction
 		(at 86.36 113.03)
@@ -3532,32 +4484,22 @@
 		(uuid "ce400fc0-ad17-402b-b5ce-6fdbb335e63e")
 	)
 	(junction
-		(at 107.95 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d95b3631-615d-4dd2-beca-d5ebc29a2240")
-	)
-	(junction
 		(at 54.61 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1252fe0-d10d-4c00-9d6e-13e7507ba12b")
 	)
 	(no_connect
-		(at 48.26 44.45)
-		(uuid "97497962-d337-460a-8c29-def31666c217")
+		(at 49.53 45.72)
+		(uuid "6cf805b3-a920-4511-841f-65fdbc7bcafe")
 	)
 	(no_connect
-		(at 48.26 46.99)
-		(uuid "978f888c-6a7a-4111-816b-d09d4dfea17b")
+		(at 49.53 48.26)
+		(uuid "988fda43-e90c-4dee-b862-9fac07ccd0ab")
 	)
 	(no_connect
-		(at 234.95 40.64)
-		(uuid "bd29ddfc-8eff-4ba6-b859-16fae5a876bd")
-	)
-	(no_connect
-		(at 48.26 49.53)
-		(uuid "e739ab82-86cb-40ab-b017-05188ac8ea0b")
+		(at 49.53 50.8)
+		(uuid "e4f4d50b-0f16-469f-9cf3-d28168109679")
 	)
 	(wire
 		(pts
@@ -3581,6 +4523,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0599d998-3fc4-49c0-8888-811f2f227818")
+	)
+	(wire
+		(pts
 			(xy 198.755 99.06) (xy 202.565 99.06)
 		)
 		(stroke
@@ -3601,6 +4553,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 107.95) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad47619-27d2-48df-9114-70f8124533c4")
+	)
+	(wire
+		(pts
 			(xy 125.73 58.42) (xy 129.54 58.42)
 		)
 		(stroke
@@ -3618,6 +4580,16 @@
 			(type default)
 		)
 		(uuid "0c3a5948-376f-415e-97bf-8614cdedb6a7")
+	)
+	(wire
+		(pts
+			(xy 24.13 50.8) (xy 24.13 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0c1243-7767-4c8c-adf4-e741f6878556")
 	)
 	(wire
 		(pts
@@ -3651,6 +4623,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 48.26) (xy 24.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "161d9b26-9c6c-42e8-9716-531aebdba9ee")
+	)
+	(wire
+		(pts
 			(xy 45.72 100.33) (xy 50.8 100.33)
 		)
 		(stroke
@@ -3661,23 +4643,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 46.99) (xy 22.86 46.99)
+			(xy 24.13 50.8) (xy 26.67 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19ec3726-693b-43e8-9491-a3c401eb3c0e")
-	)
-	(wire
-		(pts
-			(xy 44.45 44.45) (xy 48.26 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20c5bb4b-738f-497d-a869-ae3a11bf0f12")
+		(uuid "1befd248-18c9-4f35-a13a-5ba13430462f")
 	)
 	(wire
 		(pts
@@ -3781,13 +4753,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 105.41) (xy 135.89 105.41)
+			(xy 116.84 105.41) (xy 128.27 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "422d42c0-e841-4c0d-82c2-7a800e6a2301")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a2bce0-4f23-4830-a8d0-9cf149c25f88")
 	)
 	(wire
 		(pts
@@ -3808,16 +4790,6 @@
 			(type default)
 		)
 		(uuid "4e81e70e-3174-4244-9e0f-df4617bf2707")
-	)
-	(wire
-		(pts
-			(xy 105.41 107.95) (xy 105.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52b63a1b-7ef4-4ed1-8da5-0dc18b8c35ab")
 	)
 	(wire
 		(pts
@@ -3861,13 +4833,13 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 49.53) (xy 25.4 49.53)
+			(xy 45.72 48.26) (xy 49.53 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61439d8d-48c1-43e8-8392-7e64f1cc9de5")
+		(uuid "6008e01f-e4a7-41c5-8c42-fad09416a766")
 	)
 	(wire
 		(pts
@@ -3878,16 +4850,6 @@
 			(type default)
 		)
 		(uuid "63116cc0-4e08-4c2a-a846-6f9d4c91c7ee")
-	)
-	(wire
-		(pts
-			(xy 22.86 46.99) (xy 22.86 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d2aaecd-45ea-4d2c-825a-8ae41c98f087")
 	)
 	(wire
 		(pts
@@ -3951,13 +4913,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 39.37) (xy 49.53 39.37)
+			(xy 96.52 109.22) (xy 98.425 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80ca019e-16d6-4a6b-a9fb-a42e6e831383")
+		(uuid "853dc400-bb42-48f1-833a-3a7f699fe716")
 	)
 	(wire
 		(pts
@@ -3971,7 +4933,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 107.95 110.49)
+			(xy 98.425 105.41) (xy 98.425 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a4cdb5-ccee-4c84-b1b9-2b68b130c38c")
+	)
+	(wire
+		(pts
+			(xy 100.33 105.41) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3988,6 +4960,16 @@
 			(type default)
 		)
 		(uuid "8f913408-a1f0-4cde-8233-fb75e3b4f465")
+	)
+	(wire
+		(pts
+			(xy 24.13 48.26) (xy 24.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f97ac1-2400-4d24-90eb-9f851caa4e92")
 	)
 	(wire
 		(pts
@@ -4011,16 +4993,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 40.64) (xy 241.3 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9562bbb8-c7a3-41ef-bfa6-e4a06d647dde")
-	)
-	(wire
-		(pts
 			(xy 125.73 48.26) (xy 129.54 48.26)
 		)
 		(stroke
@@ -4028,6 +5000,16 @@
 			(type default)
 		)
 		(uuid "9afa95f9-2f9f-4434-a6b1-70dd9a4d86da")
+	)
+	(wire
+		(pts
+			(xy 45.72 45.72) (xy 49.53 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e056451-12f1-404b-bac7-4b91b59149dd")
 	)
 	(wire
 		(pts
@@ -4051,26 +5033,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 105.41) (xy 115.57 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a49aa01d-0be5-4249-ab48-8184a8b0af07")
-	)
-	(wire
-		(pts
-			(xy 22.86 49.53) (xy 22.86 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a71b1d36-6e2f-4d62-9847-2b464c48cf9c")
-	)
-	(wire
-		(pts
 			(xy 184.15 43.18) (xy 184.15 40.64)
 		)
 		(stroke
@@ -4091,23 +5053,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 118.11) (xy 107.95 119.38)
+			(xy 100.33 118.11) (xy 100.33 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2414e4a-453d-4259-9409-0a77fe601c28")
-	)
-	(wire
-		(pts
-			(xy 44.45 46.99) (xy 48.26 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7aec0f4-765d-43d8-9992-8e9fac03903d")
 	)
 	(wire
 		(pts
@@ -4141,7 +5093,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 105.41) (xy 107.95 105.41)
+			(xy 83.82 105.41) (xy 98.425 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4171,13 +5123,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 107.95) (xy 105.41 107.95)
+			(xy 45.72 50.8) (xy 49.53 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdee3831-650a-4e11-8f36-b1d8978b32f8")
+		(uuid "d0b21665-9d67-4408-b7a7-df7e7ad8d957")
 	)
 	(wire
 		(pts
@@ -4211,16 +5163,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 105.41) (xy 105.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1683a2f-d60e-457f-9d45-9a6122ed4e4a")
-	)
-	(wire
-		(pts
 			(xy 45.72 118.11) (xy 54.61 118.11)
 		)
 		(stroke
@@ -4231,7 +5173,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 107.95) (xy 87.63 107.95)
+			(xy 83.82 107.95) (xy 88.9 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4271,6 +5213,16 @@
 	)
 	(wire
 		(pts
+			(xy 98.425 105.41) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f31de6-940d-4cc1-99f8-4cd61e823398")
+	)
+	(wire
+		(pts
 			(xy 228.6 102.87) (xy 231.775 102.87)
 		)
 		(stroke
@@ -4278,16 +5230,6 @@
 			(type default)
 		)
 		(uuid "f2fa7d09-be83-4b6b-8ac2-58c137fd18bd")
-	)
-	(wire
-		(pts
-			(xy 44.45 49.53) (xy 48.26 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f306db85-e8eb-4ade-aed7-b7715beb2ffa")
 	)
 	(wire
 		(pts
@@ -5754,6 +6696,16 @@
 		)
 		(uuid "17ba6dca-6d21-410e-83cb-7b5cc6e7d139")
 	)
+	(label "VOS"
+		(at 86.36 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b66aeb3-7815-481c-b254-bbd1a35afa46")
+	)
 	(label "VDD_1V8"
 		(at 27.94 171.45 0)
 		(effects
@@ -5774,8 +6726,18 @@
 		)
 		(uuid "381059ac-27fb-41ce-ac35-80ff1d22e95a")
 	)
+	(label "PROG"
+		(at 127 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7be73627-6bb5-4173-a44f-31a581beffe8")
+	)
 	(label "VDD_1V8"
-		(at 135.89 105.41 180)
+		(at 128.27 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5794,15 +6756,25 @@
 		)
 		(uuid "88b05110-9dbc-498d-95ca-8e4cfd57c4e6")
 	)
+	(label "SW"
+		(at 86.36 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bb61be0-6a45-449d-be59-25b20c2696e4")
+	)
 	(label "VBUS"
-		(at 49.53 39.37 180)
+		(at 50.8 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "97a94245-1b01-4ecf-8ff4-3dd640cdeff5")
+		(uuid "99f98da1-c744-4099-904b-ab33a32be7af")
 	)
 	(label "VLED"
 		(at 236.22 99.06 180)
@@ -5813,6 +6785,16 @@
 			(justify right bottom)
 		)
 		(uuid "a37944df-260f-4dbe-b5ab-c0d8705fcd2d")
+	)
+	(label "STAT"
+		(at 97.79 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd01578d-6114-44e2-95d6-a56d5579085a")
 	)
 	(label "VBAT"
 		(at 137.16 34.29 180)
@@ -5908,6 +6890,421 @@
 		(uuid "b4b5b901-2ee6-4d6f-b5c1-019081e598d3")
 	)
 	(symbol
+		(lib_name "JS102011JAQN_1")
+		(lib_id "rightAngleOnOff_JS102011JAQN_local:JS102011JAQN")
+		(at 251.46 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "277d66e8-a94a-49b8-856f-16bfc284bc9b")
+		(property "Reference" "S3"
+			(at 250.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JS102011JAQN"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rightAngleOnOff_JS102011JAQN_local:SW_JS102011JAQN"
+			(at 251.714 71.12 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://js.pdf"
+			(at 251.46 83.058 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
+			(at 252.73 81.534 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "C&K"
+			(at 250.444 58.674 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
+			(at 249.174 60.706 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "-"
+			(at 250.444 73.152 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.80 €"
+			(at 250.19 54.61 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=eda"
+			(at 249.936 66.294 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 251.46 68.58 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "29 June 16"
+			(at 250.444 56.642 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=snap"
+			(at 250.444 63.246 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "JS102011JAQN"
+			(at 250.444 75.438 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 249.936 80.264 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "C&K"
+			(at 250.698 78.232 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JS102011JAQN"
+			(at 249.174 89.408 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs" "yes"
+			(at 249.174 91.694 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "vendor" "DigiKey"
+			(at 249.174 93.726 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mounting type" "SMD"
+			(at 248.92 85.09 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "vendor part number" "CKN10720CT-ND"
+			(at 249.682 86.868 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 251.46 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2.1"
+			(uuid "ce310fc9-10f2-4561-9610-d4756690fb7c")
+		)
+		(pin "1.1"
+			(uuid "e309fadd-7648-468c-a01f-3e4788cd3079")
+		)
+		(pin "2"
+			(uuid "cd21ceb6-3953-41d1-917e-a52b4e66c028")
+		)
+		(pin "1"
+			(uuid "4c1e589d-8cb8-4825-8d5e-c79c14d7c86c")
+		)
+		(pin "3"
+			(uuid "a5931e6a-481e-4e85-ad1f-d9dc95cf0a68")
+		)
+		(pin "3.1"
+			(uuid "8f9b7c0d-1f72-4ef0-b78b-7b233991171d")
+		)
+		(instances
+			(project ""
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "inductor_local:L")
+		(at 92.71 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "298fe520-1672-4c5b-b0f2-f7de09ce370d")
+		(property "Reference" "L1"
+			(at 92.71 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 92.71 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD_local:L_0805_2012M_Murata-LQM21PN"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "kicad-embed://JELF243B-0028.pdf"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.2 µH Shielded Multilayer Inductor 800 mA 288mOhm Max 0805 (2012 Metric)"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQM21PN2R2NGCD"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0805"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.15 €"
+			(at 92.71 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs" "yes"
+			(at 92.71 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "vendor" "DigiKey"
+			(at 92.71 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mounting type" "SMD"
+			(at 92.71 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "vendor part number" "490-7781-1-ND"
+			(at 92.71 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 92.71 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69e077a8-587f-411e-b989-ca300c7b1f8f")
+		)
+		(pin "2"
+			(uuid "b3561a14-8404-434e-a7f6-83be7c3f494a")
+		)
+		(instances
+			(project ""
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "C_2")
 		(lib_id "unpolarizedcapacitor:C")
 		(at 45.72 111.76 0)
 		(unit 1)
@@ -5988,7 +7385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.18"
+		(property "Price" "0.18 €"
 			(at 45.72 111.76 0)
 			(effects
 				(font
@@ -6051,6 +7448,71 @@
 			(project ""
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power_local:PWR_FLAG")
+		(at 50.8 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "407d41b7-ebce-44ab-a1c1-2d49d879f733")
+		(property "Reference" "#FLG03"
+			(at 50.8 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b25d87cc-12f3-4f4d-932d-d387f024229e")
+		)
+		(instances
+			(project ""
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6202,7 +7664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 228.6 107.95 0)
 			(effects
 				(font
@@ -6272,7 +7734,7 @@
 	)
 	(symbol
 		(lib_id "power_local:GND")
-		(at 22.86 52.07 0)
+		(at 24.13 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6280,7 +7742,7 @@
 		(dnp no)
 		(uuid "58eaef53-551c-47bc-9f7c-6ff0ee74e763")
 		(property "Reference" "#PWR020"
-			(at 22.86 58.42 0)
+			(at 24.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6289,7 +7751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 55.88 0)
+			(at 24.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +7759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 52.07 0)
+			(at 24.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +7768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 52.07 0)
+			(at 24.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +7777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 52.07 0)
+			(at 24.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +7789,7 @@
 			(uuid "5e69a0cf-37d7-4783-ab19-acd50568e0fe")
 		)
 		(instances
-			(project ""
+			(project "LoTiBloxy"
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
 					(reference "#PWR020")
 					(unit 1)
@@ -6426,7 +7888,7 @@
 			)
 		)
 		(property "Footprint" "ul_buckConv_TPS62840DLCR_local:VSON8_2P1X1P6_TEX"
-			(at 54.61 100.584 0)
+			(at 55.372 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,8 +7897,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "kicad-embed://tps62840.pdf"
-			(at 51.308 97.79 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps62840"
+			(at 54.356 137.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +7908,7 @@
 			)
 		)
 		(property "Description" "Buck Switching Regulator IC Positive Adjustable 1.8V 1 Output 750mA 8-VFDFN"
-			(at 54.61 102.87 0)
+			(at 54.864 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +7917,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 54.61 102.87 0)
+			(at 54.102 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +7926,7 @@
 			)
 		)
 		(property "MPN" "TPS62840DLCR"
-			(at 54.61 102.87 0)
+			(at 54.356 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6473,7 +7935,7 @@
 			)
 		)
 		(property "Package" "8-VFDFN"
-			(at 54.61 102.87 0)
+			(at 54.864 145.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,8 +7943,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "1.79"
-			(at 54.61 102.87 0)
+		(property "Price" "1.79 €"
+			(at 54.61 140.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +7953,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 54.61 102.87 0)
+			(at 53.594 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +7962,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 54.61 102.87 0)
+			(at 54.356 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +7971,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 54.61 102.87 0)
+			(at 53.848 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6518,7 +7980,7 @@
 			)
 		)
 		(property "vendor part number" "296-TPS62840DLCRCT-ND"
-			(at 54.61 102.87 0)
+			(at 55.118 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +8176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 129.54 53.34 0)
 			(effects
 				(font
@@ -6784,7 +8246,7 @@
 	)
 	(symbol
 		(lib_id "power_local:GND")
-		(at 107.95 119.38 0)
+		(at 100.33 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6792,7 +8254,7 @@
 		(dnp no)
 		(uuid "7e584369-c531-4e49-85d7-4126e2caa0a3")
 		(property "Reference" "#PWR014"
-			(at 107.95 125.73 0)
+			(at 100.33 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +8263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 123.19 0)
+			(at 100.33 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6809,7 +8271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 119.38 0)
+			(at 100.33 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,7 +8280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 119.38 0)
+			(at 100.33 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +8289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 119.38 0)
+			(at 100.33 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,7 +8311,7 @@
 	)
 	(symbol
 		(lib_id "USB_B_Micro_local:USB_B_Micro")
-		(at 36.83 44.45 0)
+		(at 36.83 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6857,7 +8319,7 @@
 		(dnp no)
 		(uuid "8e2f7dab-40b7-4c80-b1bb-60acff12167f")
 		(property "Reference" "J3"
-			(at 34.29 34.29 0)
+			(at 34.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +8327,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 35.56 53.34 0)
+			(at 35.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6873,7 +8335,7 @@
 			)
 		)
 		(property "Footprint" "ul_microUSB_1051640001_local:CON00906_5_MOL"
-			(at 40.64 45.72 0)
+			(at 38.862 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6882,7 +8344,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://1051640001.pdf"
-			(at 40.64 45.72 0)
+			(at 40.386 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6891,7 +8353,7 @@
 			)
 		)
 		(property "Description" "USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle Through Hole"
-			(at 36.83 44.45 0)
+			(at 37.592 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6900,7 +8362,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 36.83 44.45 0)
+			(at 36.83 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,7 +8371,7 @@
 			)
 		)
 		(property "MPN" "1051640001"
-			(at 36.83 44.45 0)
+			(at 36.83 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,7 +8380,7 @@
 			)
 		)
 		(property "Package" "-"
-			(at 36.83 44.45 0)
+			(at 36.576 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +8389,7 @@
 			)
 		)
 		(property "Price" "0.8"
-			(at 36.83 44.45 0)
+			(at 36.322 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +8398,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 36.83 44.45 0)
+			(at 36.322 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +8407,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 36.83 44.45 0)
+			(at 36.576 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +8416,7 @@
 			)
 		)
 		(property "mounting type" "SMD, TH"
-			(at 36.83 44.45 0)
+			(at 36.576 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +8425,7 @@
 			)
 		)
 		(property "vendor part number" "WM11263CT-ND"
-			(at 36.83 44.45 0)
+			(at 37.592 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,7 +8434,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 36.83 44.45 0)
+			(at 36.83 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +8460,7 @@
 			(uuid "358e3267-2325-4868-bfb7-3dcb347daf34")
 		)
 		(instances
-			(project ""
+			(project "LoTiBloxy"
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
 					(reference "J3")
 					(unit 1)
@@ -7024,7 +8486,7 @@
 			)
 		)
 		(property "Value" "BLM18AG601SN1D"
-			(at 213.36 106.68 0)
+			(at 215.138 107.188 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7052,7 +8514,7 @@
 			)
 		)
 		(property "Description" "600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 500mA 380mOhm"
-			(at 213.36 102.87 0)
+			(at 214.63 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7151,7 +8613,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 213.36 102.87 0)
+			(at 214.122 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +8622,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 213.36 102.87 0)
+			(at 213.106 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,8 +8630,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
-			(at 213.36 102.87 0)
+		(property "Price" "0.09 €"
+			(at 213.36 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +8640,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 213.36 102.87 0)
+			(at 213.106 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +8649,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 213.36 102.87 0)
+			(at 213.36 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +8658,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 213.36 102.87 0)
+			(at 212.598 124.968 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +8667,7 @@
 			)
 		)
 		(property "vendor part number" "490-1014-1-ND"
-			(at 213.36 102.87 0)
+			(at 213.614 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +8700,7 @@
 	)
 	(symbol
 		(lib_id "ul_BatteryConnector_B2B-PH-SM4-TB_local:B2B-PH-SM4-TBLFSN")
-		(at 189.23 43.18 0)
+		(at 198.12 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7255,7 +8717,7 @@
 			)
 		)
 		(property "Value" "B2B-PH-SM4-TBLFSN"
-			(at 190.5 50.8 0)
+			(at 189.23 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7264,7 +8726,7 @@
 			)
 		)
 		(property "Footprint" "ul_BatteryConnector_B2B-PH-SM4-TB-LF-SN_local:CONN_B2B-PH-SM4-TBLFSN_JST"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +8736,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ePH.pdf"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +8746,7 @@
 			)
 		)
 		(property "Description" "Connector Header Surface Mount 2 position 0.079\" (2.00mm)"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +8755,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +8764,7 @@
 			)
 		)
 		(property "MPN" "B2B-PH-SM4-TB"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +8773,7 @@
 			)
 		)
 		(property "Package" "-"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,8 +8781,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.40"
-			(at 189.23 43.18 0)
+		(property "Price" "0.40 €"
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +8791,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +8800,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +8809,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +8818,7 @@
 			)
 		)
 		(property "vendor part number" "455-B2B-PH-SM4-TBCT-ND"
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +8827,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 189.23 43.18 0)
+			(at 198.12 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7389,7 +8851,7 @@
 	)
 	(symbol
 		(lib_id "dk_Ferrite-Beads-and-Chips_local:BLM18HE152SN1D")
-		(at 120.65 105.41 0)
+		(at 111.76 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7397,7 +8859,7 @@
 		(dnp no)
 		(uuid "a5999f6c-d06d-43c1-9ed3-6fbb6adcf82c")
 		(property "Reference" "FB1"
-			(at 120.65 101.6 0)
+			(at 111.76 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7405,7 +8867,7 @@
 			)
 		)
 		(property "Value" "BLM18HE152SN1D"
-			(at 120.65 109.22 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7413,7 +8875,7 @@
 			)
 		)
 		(property "Footprint" "ul_ferriteBead_BLM18HE152SN1D_local:IND_BLM18_0603_MUR"
-			(at 125.73 100.33 0)
+			(at 116.84 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7423,7 +8885,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ENFA0004.pdf"
-			(at 125.73 97.79 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7433,7 +8895,7 @@
 			)
 		)
 		(property "Description" "1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0603 (1608 Metric) 500mA 500mOhm"
-			(at 120.65 105.41 0)
+			(at 106.426 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,7 +8904,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "490-5216-1-ND"
-			(at 125.73 95.25 0)
+			(at 116.84 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7452,7 +8914,7 @@
 			)
 		)
 		(property "MPN" "BLM18HE152SN1D"
-			(at 125.73 92.71 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7462,7 +8924,7 @@
 			)
 		)
 		(property "Category" "Filters"
-			(at 125.73 90.17 0)
+			(at 116.84 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7472,7 +8934,7 @@
 			)
 		)
 		(property "Family" "Ferrite Beads and Chips"
-			(at 125.73 87.63 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7482,7 +8944,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf"
-			(at 125.73 85.09 0)
+			(at 116.84 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7492,7 +8954,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/murata-electronics-north-america/BLM18HE152SN1D/490-5216-1-ND/1948392"
-			(at 125.73 82.55 0)
+			(at 116.84 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7502,7 +8964,7 @@
 			)
 		)
 		(property "Description_1" "FERRITE BEAD 1.5 KOHM 0603 1LN"
-			(at 125.73 80.01 0)
+			(at 116.84 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7512,7 +8974,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 125.73 77.47 0)
+			(at 116.84 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7522,7 +8984,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 125.73 74.93 0)
+			(at 116.84 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -7532,7 +8994,8 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 120.65 105.41 0)
+			(at 105.918 120.396 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +9004,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 120.65 105.41 0)
+			(at 104.14 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,8 +9012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.18"
-			(at 120.65 105.41 0)
+		(property "Price" "0.18 €"
+			(at 104.902 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +9022,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 120.65 105.41 0)
+			(at 103.632 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7568,7 +9031,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 120.65 105.41 0)
+			(at 104.14 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +9040,8 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 120.65 105.41 0)
+			(at 103.632 122.428 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +9050,7 @@
 			)
 		)
 		(property "vendor part number" "490-5216-1-ND"
-			(at 120.65 105.41 0)
+			(at 105.918 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7595,7 +9059,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 120.65 105.41 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,8 +9212,9 @@
 		)
 	)
 	(symbol
+		(lib_name "C_1")
 		(lib_id "unpolarizedcapacitor:C")
-		(at 107.95 114.3 0)
+		(at 100.33 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7757,7 +9222,7 @@
 		(dnp no)
 		(uuid "b80284af-f0d8-444c-9b0c-24d4978c560d")
 		(property "Reference" "C11"
-			(at 104.14 111.76 0)
+			(at 96.52 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +9231,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 102.87 116.84 0)
+			(at 95.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +9240,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD_local:C_0603_1608Metric"
-			(at 108.9152 118.11 0)
+			(at 101.2952 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +9249,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://GRM188R60J106ME47-01.pdf"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7793,7 +9258,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7802,7 +9267,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7811,7 +9276,7 @@
 			)
 		)
 		(property "MPN" "GRM188R60J106ME47D"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +9285,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7828,8 +9293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.10"
-			(at 107.95 114.3 0)
+		(property "Price" "0.10 €"
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7838,7 +9303,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7847,7 +9312,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7856,7 +9321,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +9330,7 @@
 			)
 		)
 		(property "vendor part number" "490-3896-1-ND"
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7874,7 +9339,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 107.95 114.3 0)
+			(at 100.33 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7897,6 +9362,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_3")
 		(lib_id "unpolarizedcapacitor:C")
 		(at 81.28 43.18 0)
 		(unit 1)
@@ -7977,7 +9443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.18"
+		(property "Price" "0.18 €"
 			(at 81.28 43.18 0)
 			(effects
 				(font
@@ -8135,7 +9601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.40"
+		(property "Price" "0.40 €"
 			(at 88.9 43.18 90)
 			(effects
 				(font
@@ -8204,6 +9670,7 @@
 		)
 	)
 	(symbol
+		(lib_name "C_4")
 		(lib_id "unpolarizedcapacitor:C")
 		(at 139.7 43.18 0)
 		(unit 1)
@@ -8284,7 +9751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.18"
+		(property "Price" "0.18 €"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -8347,251 +9814,6 @@
 			(project "LoTiBloxy"
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rightAngleOnOff_JS102011JAQN_local:JS102011JAQN")
-		(at 251.46 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d49bced6-e9ca-4436-8dbe-e56a00877411")
-		(property "Reference" "S2"
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JS102011JAQN"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "rightAngleOnOff_JS102011JAQN_local:SW_JS102011JAQN"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://js.pdf"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "C&K"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "-"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.80"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=eda"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "29 June 16"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=snap"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "JS102011JAQN"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "C&K"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "JS102011JAQN"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "rohs" "yes"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "vendor" "DigiKey"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mounting type" "SMD"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "vendor part number" "CKN10720CT-ND"
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 251.46 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3.1"
-			(uuid "57b310b8-b8ad-46b9-83d3-62006fcbeb3b")
-		)
-		(pin "2"
-			(uuid "f4613349-5c41-4de9-bc5d-11cfbf3f1a50")
-		)
-		(pin "1.1"
-			(uuid "7f48092e-224f-4c41-8530-1fb7b19f4163")
-		)
-		(pin "2.1"
-			(uuid "535c6314-02be-4638-8078-477c5acd9f1b")
-		)
-		(pin "1"
-			(uuid "06f2738e-fbdf-4dea-a312-51be544fe6de")
-		)
-		(pin "3"
-			(uuid "a133b56b-306b-4bc3-8b95-ed40b51b5cea")
-		)
-		(instances
-			(project ""
-				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -8664,7 +9886,7 @@
 	)
 	(symbol
 		(lib_id "dk_MCP73831BatteryCharger_local:MCP73831T-2ACI_OT")
-		(at 115.57 38.1 0)
+		(at 115.57 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8675,42 +9897,44 @@
 			(at 114.3 34.29 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "MCP73831T-2ACI_OT"
-			(at 102.87 62.23 0)
+			(at 105.41 63.5 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
 		(property "Footprint" "BatteryCharger_MCP73831T_local:mcp73831T_SOT-23-5"
-			(at 120.65 33.02 0)
+			(at 87.376 72.136 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "kicad-embed://MCHPS05673-1.pdf"
-			(at 120.65 30.48 0)
+			(at 87.884 78.74 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "Charger IC Lithium Ion/Polymer SOT-23-5"
-			(at 115.57 38.1 0)
+			(at 105.156 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,97 +9943,104 @@
 			)
 		)
 		(property "Digi-Key_PN" "MCP73831T-2ACI/OTCT-ND"
-			(at 120.65 27.94 0)
+			(at 85.09 22.352 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "MPN" "MCP73831T-2ACI/OT"
-			(at 120.65 25.4 0)
+			(at 88.138 76.454 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Category" "Integrated Circuits (ICs)"
-			(at 120.65 22.86 0)
+			(at 89.154 82.804 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Family" "PMIC - Battery Chargers"
-			(at 120.65 20.32 0)
+			(at 87.884 74.422 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "DK_Datasheet_Link" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
-			(at 120.65 17.78 0)
+			(at 84.582 23.876 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802"
-			(at 120.65 15.24 0)
+			(at 87.884 81.026 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description_1" "IC CONTROLLR LI-ION 4.2V SOT23-5"
-			(at 120.65 12.7 0)
+			(at 85.09 20.32 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 120.65 10.16 0)
+			(at 89.408 88.9 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Status" "Active"
-			(at 120.65 7.62 0)
+			(at 89.916 90.424 0)
+			(show_name yes)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Microchip Technology"
-			(at 115.57 38.1 0)
+			(at 97.282 66.04 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8818,7 +10049,8 @@
 			)
 		)
 		(property "Package" "-"
-			(at 115.57 38.1 0)
+			(at 91.186 91.948 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,8 +10058,9 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.65"
-			(at 115.57 38.1 0)
+		(property "Price" "0.65 €"
+			(at 90.17 68.58 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +10069,8 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 115.57 38.1 0)
+			(at 88.646 70.358 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +10079,8 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 115.57 38.1 0)
+			(at 92.202 84.836 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +10089,8 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 115.57 38.1 0)
+			(at 91.186 86.868 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8863,7 +10099,7 @@
 			)
 		)
 		(property "vendor part number" "MCP73831T-2ACI/OTCT-ND"
-			(at 115.57 38.1 0)
+			(at 98.044 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8872,7 +10108,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 115.57 38.1 0)
+			(at 115.57 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,7 +10286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.09"
+		(property "Price" "0.09 €"
 			(at 88.9 53.34 0)
 			(effects
 				(font
@@ -9113,155 +10349,6 @@
 			(project ""
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "inductor_local:LQG15HS2N0S02D")
-		(at 102.87 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fad2fbf1-558e-4583-aeda-71ee3ec7ff52")
-		(property "Reference" "L2"
-			(at 95.25 111.76 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "2.2uH"
-			(at 95.25 114.3 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD_local:L_0805_2012M_Murata-LQM21PN"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "kicad-embed://JELF243B-0028.pdf"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.2 µH Shielded Multilayer Inductor 800 mA 288mOhm Max 0805 (2012 Metric)"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LQM21PN2R2NGCD"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0805"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.15"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "rohs" "yes"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "vendor" "DigiKey"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mounting type" "SMD"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "vendor part number" "490-7781-1-ND"
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Purpose" ""
-			(at 102.87 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06601fed-a200-42a3-b006-98f890dccff1")
-		)
-		(pin "2"
-			(uuid "cbf3a919-e344-4e11-8afc-6adc3d5aca1e")
-		)
-		(instances
-			(project ""
-				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
-					(reference "L2")
 					(unit 1)
 				)
 			)

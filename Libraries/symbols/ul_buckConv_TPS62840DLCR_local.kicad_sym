@@ -9,7 +9,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "U3"
 			(at 14.478 4.064 0)
 			(effects
 				(font
@@ -26,7 +26,8 @@
 			)
 		)
 		(property "Footprint" "VSON8_2P1X1P6_TEX"
-			(at 0 2.286 0)
+			(at -12.954 -24.638 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,7 +37,8 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps62840"
-			(at -3.302 5.08 0)
+			(at -9.398 -27.432 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,8 +47,9 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "Buck Switching Regulator IC Positive Adjustable 1.8V 1 Output 750mA 8-VFDFN"
+			(at 4.318 -16.256 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,12 +57,84 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at -11.938 -21.336 0)
+			(show_name)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS62840DLCR"
+			(at -12.446 -30.988 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "8-VFDFN"
+			(at -13.716 -14.478 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "1.79 €"
+			(at -13.462 -39.624 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "rohs" "yes"
+			(at -13.208 -41.148 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "vendor" "DigiKey"
+			(at -12.7 -33.782 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mounting type" "SMD"
+			(at -13.462 -36.576 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "vendor part number" "296-TPS62840DLCRCT-ND"
+			(at -9.398 -19.05 0)
+			(show_name)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "TPS62840DLCR"
@@ -129,7 +204,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "TPS62840DLCR_1_1"
+			(pin power_in line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "VIN"
@@ -147,7 +224,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -5.08 0)
 				(length 7.62)
 				(name "MODE"
@@ -165,7 +242,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "EN"
@@ -183,7 +260,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 0 -10.16 0)
 				(length 7.62)
 				(name "GND"
@@ -201,7 +278,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 29.21 -2.54 180)
 				(length 7.62)
 				(name "VOS"
@@ -219,7 +296,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 29.21 -5.08 180)
 				(length 7.62)
 				(name "SW"
@@ -237,7 +314,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 29.21 -7.62 180)
 				(length 7.62)
 				(name "VSET"
@@ -255,7 +332,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 29.21 -10.16 180)
 				(length 7.62)
 				(name "STOP"
