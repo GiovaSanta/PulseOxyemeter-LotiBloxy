@@ -1,4 +1,4 @@
-26489434500183551
+26498262011079518
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -3587,6 +3587,13 @@ Capacitor_SMD
 C_Trimmer_Voltronics_JZ
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
  Voltronics JR
+0
+2
+2
+Capacitor_SMD_local
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
 0
 2
 2
@@ -66807,6 +66814,20 @@ SMT
 0
 2
 2
+Inductor_SMD_local
+L_0402_1005M_Murata-LQG15HS
+
+LQG15HS15NJ02D 
+0
+2
+2
+Inductor_SMD_local
+L_0805_2012M_Murata-LQM21PN
+
+
+0
+2
+2
 Inductor_THT
 Choke_EPCOS_B82722A
 Current-Compensated Ring Core Double Chokes, EPCOS, B82722A, 22.3mmx22.7mm, https://en.tdk.eu/inf/30/db/ind_2008/b82722a_j.pdf
@@ -70201,7 +70222,7 @@ MCU_CC2640R2F_RSM0032B
 CC2640R2FRSMR 
 0
 38
-34
+33
 MCU_CC2640R2FRSMR_local
 MCU_CC2640R2F_RSM0032B_NV
 
@@ -95592,8 +95613,8 @@ SMD Shunt Resistor
 4
 2
 Resistor_SMD_local
-R_0603_1608Metric
-Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+R_0402_1005Metric
+Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
@@ -104019,6 +104040,13 @@ test point THT pad
 0
 1
 1
+Texas_SWRA117D_2.4GHzRight_local
+Texas_SWRA117D_2.4GHz_Left
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
 Transformer_SMD
 Pulse_P0926NL
 SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
@@ -105755,10 +105783,17 @@ ECS-240-8-36-RWN-TR
 0
 4
 4
-ul_BatteryConnector_B2B-PH-SM4-TB-LF-SN_local
+ul_BatteryConnector_S2B-PH-SM4-TB_local
 CONN_B2B-PH-SM4-TBLFSN_JST
 
 B2B-PH-SM4-TBLFSN 
+0
+4
+4
+ul_BatteryConnector_S2B-PH-SM4-TB_local
+CONN_S2B-PH-SM4-TB_JST
+
+S2B-PH-SM4-TBLFSN 
 0
 4
 4

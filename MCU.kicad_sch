@@ -2657,7 +2657,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antenna_local:Antenna"
+		(symbol "antenna_local:Antenna_Shield"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2669,7 +2669,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+				(at -1.905 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2677,8 +2677,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2687,7 +2687,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2696,7 +2696,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2704,7 +2704,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "Antenna with extra pin for shielding"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2722,10 +2722,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_0_1"
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start 0 -2.667)
+					(mid -0.8485 -2.1032)
+					(end -0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -3.81)
+						(xy 0 5.08) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -2737,10 +2749,69 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.508 -1.143)
+					(mid 0.8046 -2.0885)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2748,7 +2819,7 @@
 					)
 				)
 			)
-			(symbol "Antenna_1_1"
+			(symbol "Antenna_Shield_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -2760,6 +2831,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5711,62 +5800,6 @@
 		)
 		(uuid "013d21ba-68e1-4d68-8755-3f501be4462f")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 213.36 39.37 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "02113899-5e16-498d-bf8f-53804012a879")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 43.18 142.24 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "03c9be81-5a76-4297-a565-a5306bcd2672")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 223.52 128.27 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "056f3a3e-3c6a-4d71-a4ea-ebad32cada71")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 39.37 128.27 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "15210a27-4d7c-4c2b-8959-1d96047f46f4")
-	)
 	(text "Pin 28"
 		(exclude_from_sim no)
 		(at 66.675 31.75 0)
@@ -5777,34 +5810,6 @@
 			)
 		)
 		(uuid "17127e19-0e4a-4c80-9e88-46eaf7520756")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 147.32 165.1 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "29076444-4910-4879-991d-8af3cb1671f7")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 24.13 142.24 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "34206279-8b6b-4c27-b487-b70e47855406")
 	)
 	(text "-C11 needs to be 0603 (observed from layout snapshot on datasheet)"
 		(exclude_from_sim no)
@@ -5830,20 +5835,6 @@
 			(href "https://www.ti.com/tool/CC2650EM-4XS-EXT-REG-RD")
 		)
 		(uuid "390b17fa-bcb9-4e8a-87a9-90ef8f312ceb")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 62.23 43.18 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3ed4b4d2-9e09-4747-91e4-4415033f3c74")
 	)
 	(text "S"
 		(exclude_from_sim no)
@@ -5904,48 +5895,6 @@
 		)
 		(uuid "5e9b3869-1891-4881-b9fb-156e451233d1")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 135.89 154.94 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "6b82a8b9-4279-4479-99e0-358a2c94ac41")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 46.99 96.52 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "6be58331-2c27-4ec6-9d38-52d5410527a5")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 29.21 44.45 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "6f18022e-c336-4da9-955a-1cb7ecc192cf")
-	)
 	(text "-The nMOS protects the 1.8 V GPIO from the higher VSYS\n voltage and moves the LED current off the MCU pin"
 		(exclude_from_sim no)
 		(at 222.25 140.97 0)
@@ -5958,48 +5907,6 @@
 		)
 		(uuid "71c7483e-a076-44c3-a198-921fb453d2c7")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 52.07 43.18 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "75287e8f-2272-4a21-bf67-94db41312b8f")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 46.99 83.82 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "7c8bfda2-5eb5-4d58-9501-5effa97668b0")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 228.6 24.13 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9a6aeb72-15d4-4942-889b-f00fcbeb7370")
-	)
 	(text "Pin 27"
 		(exclude_from_sim no)
 		(at 57.15 31.75 0)
@@ -6010,34 +5917,6 @@
 			)
 		)
 		(uuid "9b0297bd-1e7c-415d-b237-6fbc6a7de6f9")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 162.56 74.93 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9b5f728d-b008-4959-a3c7-5049eb50afb2")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 39.37 43.18 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9fc997f3-dfdc-4c40-b6e9-a5ff74ab8e78")
 	)
 	(text "-XTAL2 Load Caps are on Chip"
 		(exclude_from_sim no)
@@ -6062,34 +5941,6 @@
 		)
 		(uuid "ac0c76c0-b0ec-4871-a73e-d34891baf4f5")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 242.57 111.76 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ad930d0c-100e-4e0f-808c-a0025dcfa973")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 77.47 128.27 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ae02dea7-79a0-4775-bb66-6fbb687b196f")
-	)
 	(text "D"
 		(exclude_from_sim no)
 		(at 240.03 111.76 0)
@@ -6101,62 +5952,6 @@
 			(justify left)
 		)
 		(uuid "af3d6930-1a81-4b11-aa3b-dd35647efe05")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 72.39 43.18 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b2a9cb66-3e9b-48cd-8f5d-fe051b37edb5")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 238.76 24.13 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b46fbd48-e4ad-47b4-a3e7-0f06264e681f")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 90.17 41.91 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b67c3424-1505-4262-9928-15bdbf35aa0b")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 218.44 22.86 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "bd9755d3-d739-41ce-ae55-0dd42213c1de")
 	)
 	(text "-0402 for the small 100 nF decouplers (lower ESL = better HF)"
 		(exclude_from_sim no)
@@ -6170,20 +5965,6 @@
 		)
 		(uuid "cafb77ba-aa34-4ab5-b604-da9ba7d4ddcf")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 64.77 96.52 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "cf596b43-3941-4ef2-ab60-f17e44e812f6")
-	)
 	(text "G"
 		(exclude_from_sim no)
 		(at 232.41 114.3 0)
@@ -6195,62 +5976,6 @@
 			(justify left)
 		)
 		(uuid "d2f52662-9e5c-4d60-9cc8-55410b12bd49")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 229.87 39.37 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "d3578c04-e1bf-4a32-b798-72080e80fe72")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 234.95 88.9 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "dbbc3e02-745a-4422-a091-13a9aadd21fd")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 161.29 26.67 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "de30bd56-981e-4618-96b0-14969dff68e0")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 236.22 100.33 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "e85383bf-75d2-4dc1-8013-405473113eb6")
 	)
 	(text "Pin 11"
 		(exclude_from_sim no)
@@ -6275,19 +6000,16 @@
 		)
 		(uuid "effcaabb-6608-4c3d-b7b3-249db232c55b")
 	)
-	(text "√"
+	(text "-Antenna for single ended operation"
 		(exclude_from_sim no)
-		(at 115.57 170.18 0)
+		(at 234.95 50.8 0)
 		(effects
 			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
+				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
-			(justify left)
 		)
-		(uuid "f68409fa-1b94-43d0-84df-06ba79b7ddbd")
+		(uuid "f6685938-d5c0-496b-89a7-c4b304586735")
 	)
 	(text "-0603 (6.3-10 V rated) for 10 µF ( will still deliver ~6-9 µF at 3.3 V)"
 		(exclude_from_sim no)
@@ -6332,12 +6054,6 @@
 		(uuid "2c445c85-eb97-4c38-bb2f-ddf3ab352ab9")
 	)
 	(junction
-		(at 130.81 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3999408f-b1c4-45b5-b899-2a984217d1b3")
-	)
-	(junction
 		(at 129.54 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6372,12 +6088,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88dbd9a6-819b-454f-86b4-03d1842842ac")
-	)
-	(junction
-		(at 130.81 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "942ed13f-9995-4890-9b83-4a500d642366")
 	)
 	(junction
 		(at 118.11 95.25)
@@ -6416,12 +6126,6 @@
 		(uuid "c54ef499-a446-45e7-a763-0ecf02766523")
 	)
 	(junction
-		(at 130.81 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdd43aed-117f-4d97-9867-95477e689494")
-	)
-	(junction
 		(at 238.76 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6457,7 +6161,7 @@
 	)
 	(no_connect
 		(at 191.77 91.44)
-		(uuid "b44796f7-093d-400c-9c9b-5499c8716038")
+		(uuid "9579aeca-767e-4149-b927-0a11788aa94f")
 	)
 	(no_connect
 		(at 123.19 110.49)
@@ -6549,7 +6253,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 81.28) (xy 132.08 81.28)
+			(xy 123.19 81.28) (xy 132.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6576,26 +6280,6 @@
 			(type default)
 		)
 		(uuid "109755cc-90ff-415f-9d7a-65b9876de46f")
-	)
-	(wire
-		(pts
-			(xy 130.81 83.82) (xy 130.81 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "140a97c6-a915-458e-906d-d4670cb900a0")
-	)
-	(wire
-		(pts
-			(xy 130.81 83.82) (xy 130.81 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14adf237-6e9a-4ede-a2ed-6883cb57f0eb")
 	)
 	(wire
 		(pts
@@ -6759,16 +6443,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 130.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30dc7359-f141-4cb8-a4c0-18deb73eeac5")
-	)
-	(wire
-		(pts
 			(xy 25.4 135.89) (xy 25.4 134.62)
 		)
 		(stroke
@@ -6879,7 +6553,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 132.08 86.36)
+			(xy 123.19 86.36) (xy 132.08 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7349,6 +7023,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 30.48) (xy 252.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a87912b-0e74-4a6c-816d-120c122ab04d")
+	)
+	(wire
+		(pts
 			(xy 182.88 124.46) (xy 191.77 124.46)
 		)
 		(stroke
@@ -7489,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 83.82) (xy 130.81 83.82)
+			(xy 123.19 83.82) (xy 132.08 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7639,16 +7323,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 81.28) (xy 130.81 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce91560c-8ae2-496a-8f66-9b397449cb63")
-	)
-	(wire
-		(pts
 			(xy 191.77 121.92) (xy 191.77 124.46)
 		)
 		(stroke
@@ -7689,7 +7363,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 88.9) (xy 130.81 88.9)
+			(xy 123.19 88.9) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7887,6 +7561,16 @@
 		)
 		(uuid "21fc48bd-f820-41a9-a341-085365c598fe")
 	)
+	(label "VDD_1V8"
+		(at 123.19 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "23f9a2d9-4ee1-4dc1-aa54-fc6421c546e7")
+	)
 	(label "DCOUPL"
 		(at 191.77 107.95 180)
 		(effects
@@ -7947,16 +7631,6 @@
 		)
 		(uuid "57e320ff-7136-4366-a9cf-3dc137c1ec3f")
 	)
-	(label "batCheck"
-		(at 191.77 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "622668ab-7cd4-4163-b830-3dc7d6dda6d4")
-	)
 	(label "SCL"
 		(at 38.1 186.69 0)
 		(effects
@@ -8016,6 +7690,16 @@
 			(justify right bottom)
 		)
 		(uuid "80329f09-69d4-4172-ae06-2cecbba73c6a")
+	)
+	(label "VDD_1V8"
+		(at 123.19 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8848364c-570b-46a9-9a9a-7251ae3de90a")
 	)
 	(label "VDD_1V8"
 		(at 59.69 176.53 180)
@@ -8096,6 +7780,16 @@
 			(justify left bottom)
 		)
 		(uuid "a9a3004e-0d79-4484-822a-fdf86babe394")
+	)
+	(label "batCheck"
+		(at 191.77 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1733051-38a4-418e-b850-bd3b080374b7")
 	)
 	(label "VDD_1V8"
 		(at 130.81 77.47 180)
@@ -8236,6 +7930,16 @@
 			(justify right bottom)
 		)
 		(uuid "f173f5bb-e247-4ae8-b63c-b169e732951c")
+	)
+	(label "VDD_1V8"
+		(at 123.19 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5e0eb87-2163-4823-956a-a77e7fc0b8d3")
 	)
 	(label "x24_N"
 		(at 123.19 101.6 0)
@@ -10059,6 +9763,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power_local:GND")
+		(at 252.73 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51e8dd96-559c-4721-9dc1-af845edb7c4c")
+		(property "Reference" "#PWR033"
+			(at 252.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b1990a-c26c-41c8-b487-6a4fa5d21fa7")
+		)
+		(instances
+			(project "LoTiBloxy"
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/4d157fd5-e254-434d-99a3-bcb1217591fb"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "resistor:R")
 		(at 46.99 86.36 90)
 		(unit 1)
@@ -10465,7 +10235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+		(property "Footprint" "connectorTagConnect_local:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 			(at 154.94 55.88 0)
 			(effects
 				(font
@@ -11499,127 +11269,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antenna_local:Antenna")
-		(at 250.19 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98ace6cc-0b90-4996-b3ae-39827475fb88")
-		(property "Reference" "AE1"
-			(at 252.73 24.7649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50 ohm"
-			(at 252.73 27.3049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "-"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "-"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "-"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "-"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "rohs" "-"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "vendor" "-"
-			(at 250.19 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cebb4f50-3a76-4c15-97c2-52e704efc4f1")
-		)
-		(instances
-			(project ""
-				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/4d157fd5-e254-434d-99a3-bcb1217591fb"
-					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_local:GND")
 		(at 91.44 143.51 0)
 		(unit 1)
@@ -12463,6 +12112,102 @@
 			(project "LoTiBloxy"
 				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/4d157fd5-e254-434d-99a3-bcb1217591fb"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antenna_local:Antenna_Shield")
+		(at 250.19 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cad6928c-b72b-4e50-ba86-6855b23152f8")
+		(property "Reference" "AE2"
+			(at 254 23.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 254 26.0349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Texas_SWRA117D_2.4GHzRight_local:Texas_SWRA117D_2.4GHz_Left"
+			(at 250.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 250.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mounting type" ""
+			(at 250.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "vendor part number" ""
+			(at 250.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 250.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdbfdbb7-7cb4-4bf6-8425-2859108ec7b4")
+		)
+		(pin "2"
+			(uuid "fe35b79f-0465-4b9a-a854-768c42fc05f4")
+		)
+		(instances
+			(project ""
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/4d157fd5-e254-434d-99a3-bcb1217591fb"
+					(reference "AE2")
 					(unit 1)
 				)
 			)

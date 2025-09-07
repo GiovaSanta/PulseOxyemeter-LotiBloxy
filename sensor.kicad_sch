@@ -1145,34 +1145,6 @@
 		)
 		(uuid "22542e7b-effc-4b8b-8e51-8b0d2d475e99")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 209.55 95.25 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "66ec674b-c816-4580-93f1-cc8148925a44")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 132.08 101.6 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "769e0f1a-95e9-4ce8-957e-f334928cfb26")
-	)
 	(text "-no constraints on VLED bulk capacitor C2, same capacitor type\n assigned for C11 in powerSection sheet rated 10V is reutilized "
 		(exclude_from_sim no)
 		(at 54.61 133.35 0)
@@ -1184,76 +1156,6 @@
 			(justify left)
 		)
 		(uuid "add07843-66d3-42ba-a815-16f3e337a46c")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 30.48 106.68 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ae2ceabf-0154-49d7-8270-e2e8193cc7c5")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 93.98 77.47 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ba441740-6157-4b3f-b376-be8720a6194f")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 219.71 101.6 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "c5671a7c-4542-4a4a-897d-35a957a40852")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 228.6 105.41 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "e85e1f5d-bda5-49c5-864c-a97547f6a07a")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 49.53 105.41 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "fab7c814-a9f5-45fd-a61a-ab12279c5611")
 	)
 	(junction
 		(at 121.92 96.52)
@@ -1268,13 +1170,13 @@
 		(uuid "556d0bc9-d7a0-49ac-a019-891b35a014f8")
 	)
 	(junction
-		(at 215.9 85.09)
+		(at 157.48 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81c0d763-7220-4d69-926e-2ca7cb601446")
 	)
 	(junction
-		(at 223.52 88.9)
+		(at 165.1 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba91abcd-d965-4518-926d-e3f430117329")
@@ -1315,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 106.68) (xy 238.76 106.68)
+			(xy 173.99 106.68) (xy 180.34 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 100.33) (xy 232.41 106.68)
+			(xy 173.99 100.33) (xy 173.99 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1335,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 88.9) (xy 223.52 88.9)
+			(xy 173.99 88.9) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 215.9 85.09)
+			(xy 165.1 85.09) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1367,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 172.72) (xy 63.5 172.72)
+			(xy 39.37 143.51) (xy 67.31 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 90.17) (xy 223.52 88.9)
+			(xy 165.1 90.17) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1447,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 85.09) (xy 215.9 86.36)
+			(xy 157.48 85.09) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1555,7 +1457,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 177.8) (xy 35.56 177.8)
+			(xy 67.31 148.59) (xy 39.37 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1477,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 92.71) (xy 232.41 88.9)
+			(xy 173.99 92.71) (xy 173.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 180.34) (xy 63.5 180.34)
+			(xy 39.37 151.13) (xy 67.31 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1605,7 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 99.06) (xy 219.71 99.06)
+			(xy 157.48 99.06) (xy 161.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 82.55) (xy 215.9 85.09)
+			(xy 157.48 82.55) (xy 157.48 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 97.79) (xy 223.52 102.87)
+			(xy 165.1 97.79) (xy 165.1 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 82.55) (xy 215.9 82.55)
+			(xy 149.86 82.55) (xy 157.48 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 88.9) (xy 223.52 85.09)
+			(xy 165.1 88.9) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 175.26) (xy 63.5 175.26)
+			(xy 39.37 146.05) (xy 67.31 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 184.15) (xy 63.5 184.15)
+			(xy 39.37 154.94) (xy 67.31 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1637,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 102.87) (xy 227.33 102.87)
+			(xy 165.1 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 93.98) (xy 215.9 99.06)
+			(xy 157.48 93.98) (xy 157.48 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2171,7 @@
 		)
 	)
 	(label "VDD_1V8"
-		(at 63.5 184.15 180)
+		(at 67.31 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2279,7 +2181,7 @@
 		(uuid "07a54ed3-389a-408f-8fcb-0323d51afbcb")
 	)
 	(label "SCL"
-		(at 63.5 175.26 180)
+		(at 67.31 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2319,7 +2221,7 @@
 		(uuid "42333f1d-f925-4403-ade2-7e93c11c6ec0")
 	)
 	(label "INTB"
-		(at 238.76 106.68 180)
+		(at 180.34 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2339,7 +2241,7 @@
 		(uuid "7704a41b-5b3f-4ded-ab3d-448d619fd74a")
 	)
 	(label "SDA"
-		(at 63.5 172.72 180)
+		(at 67.31 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2349,7 +2251,7 @@
 		(uuid "ac05d416-d639-4619-b81c-46a6c4cee63e")
 	)
 	(label "SDA"
-		(at 219.71 99.06 180)
+		(at 161.29 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2369,7 +2271,7 @@
 		(uuid "b878bbda-cef8-46af-ad5a-faa9d01c4325")
 	)
 	(label "SCL"
-		(at 227.33 102.87 180)
+		(at 168.91 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2389,7 +2291,7 @@
 		(uuid "c1745307-5355-4fb1-bab9-91e12bcd9c23")
 	)
 	(label "VLED"
-		(at 63.5 180.34 180)
+		(at 67.31 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2409,7 +2311,7 @@
 		(uuid "ca8f4f51-e923-4fb1-8e44-81b39ef45c4a")
 	)
 	(label "VDD_1V8"
-		(at 208.28 82.55 0)
+		(at 149.86 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2429,7 +2331,7 @@
 		(uuid "f3ed254e-0d03-4912-8a27-258ae53f1b83")
 	)
 	(label "INTB"
-		(at 35.56 177.8 0)
+		(at 39.37 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,7 +2342,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 35.56 172.72 180)
+		(at 39.37 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2451,7 +2353,7 @@
 	)
 	(hierarchical_label "VDD_1V8"
 		(shape input)
-		(at 35.56 184.15 180)
+		(at 39.37 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2462,7 +2364,7 @@
 	)
 	(hierarchical_label "VLED"
 		(shape input)
-		(at 35.56 180.34 180)
+		(at 39.37 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2473,7 +2375,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 35.56 175.26 180)
+		(at 39.37 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2484,7 +2386,7 @@
 	)
 	(hierarchical_label "INTB"
 		(shape output)
-		(at 63.5 177.8 0)
+		(at 67.31 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,7 +2647,7 @@
 	)
 	(symbol
 		(lib_id "power_local:PWR_FLAG")
-		(at 215.9 85.09 90)
+		(at 157.48 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2754,7 +2656,7 @@
 		(fields_autoplaced yes)
 		(uuid "13e951cd-a935-4b3e-8431-2b5bf6e061d0")
 		(property "Reference" "#FLG02"
-			(at 213.995 85.09 0)
+			(at 155.575 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2665,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 212.09 85.0899 90)
+			(at 153.67 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 85.09 0)
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,7 +2683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 85.09 0)
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2790,7 +2692,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 215.9 85.09 0)
+			(at 157.48 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2714,7 @@
 	)
 	(symbol
 		(lib_id "resistor:R")
-		(at 232.41 96.52 0)
+		(at 173.99 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2820,7 +2722,7 @@
 		(dnp no)
 		(uuid "3fe4cb72-65f3-45db-bd6a-77ae9c0df4d7")
 		(property "Reference" "R3"
-			(at 228.6 93.98 0)
+			(at 170.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2731,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 226.06 96.52 0)
+			(at 167.64 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_local:R_0402_1005Metric"
-			(at 230.632 96.52 90)
+			(at 172.212 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2749,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://sei-rmcf_rmcp.pdf"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2758,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2767,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2776,7 @@
 			)
 		)
 		(property "MPN" "RMCF0402FT10K0"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2785,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2794,7 @@
 			)
 		)
 		(property "Price" "0.09 €"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +2803,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +2812,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +2821,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +2830,7 @@
 			)
 		)
 		(property "vendor part number" "RMCF0402FT10K0CT-ND"
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +2839,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 232.41 96.52 0)
+			(at 173.99 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3642,7 @@
 	)
 	(symbol
 		(lib_id "resistor:R")
-		(at 223.52 93.98 0)
+		(at 165.1 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3748,7 +3650,7 @@
 		(dnp no)
 		(uuid "e33625fb-b261-419c-9639-f9945efccbbf")
 		(property "Reference" "R2"
-			(at 218.44 92.71 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3659,7 @@
 			)
 		)
 		(property "Value" "3.3kΩ"
-			(at 215.9 95.25 0)
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3668,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_local:R_0402_1005Metric"
-			(at 221.742 93.98 90)
+			(at 163.322 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3677,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://sei-rmcf_rmcp(1).pdf"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3686,7 @@
 			)
 		)
 		(property "Description" "3.3 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3695,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3704,7 @@
 			)
 		)
 		(property "MPN" "RMCF0402FT3K30"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3713,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3722,7 @@
 			)
 		)
 		(property "Price" "0.09 €"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3731,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3740,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3749,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,7 +3758,7 @@
 			)
 		)
 		(property "vendor part number" "RMCF0402FT3K30CT-ND"
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +3767,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 223.52 93.98 0)
+			(at 165.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "resistor:R")
-		(at 215.9 90.17 0)
+		(at 157.48 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3897,7 +3799,7 @@
 		(dnp no)
 		(uuid "ec814597-ec2a-4f14-a539-dc4b7227f160")
 		(property "Reference" "R1"
-			(at 210.82 88.9 0)
+			(at 152.4 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3808,7 @@
 			)
 		)
 		(property "Value" "3.3kΩ"
-			(at 208.28 91.44 0)
+			(at 149.86 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3817,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD_local:R_0402_1005Metric"
-			(at 214.122 90.17 90)
+			(at 155.702 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3826,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://sei-rmcf_rmcp(1).pdf"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3835,7 @@
 			)
 		)
 		(property "Description" "3.3 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3844,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3853,7 @@
 			)
 		)
 		(property "MPN" "RMCF0402FT3K30"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3862,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3871,7 @@
 			)
 		)
 		(property "Price" "0.09 €"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3880,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3889,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3898,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +3907,7 @@
 			)
 		)
 		(property "vendor part number" "RMCF0402FT3K30CT-ND"
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +3916,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 215.9 90.17 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)

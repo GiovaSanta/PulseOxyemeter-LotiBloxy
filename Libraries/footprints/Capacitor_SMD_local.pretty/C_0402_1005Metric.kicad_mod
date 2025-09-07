@@ -1,12 +1,14 @@
 (footprint "C_0402_1005Metric"
 	(version 20241229)
-	(generator "kicad-footprint-generator")
+	(generator "pcbnew")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "capacitor")
 	(property "Reference" "REF**"
-		(at 0 -1.16 0)
+		(at 0 -1.5 0)
 		(layer "F.SilkS")
+		(uuid "0e7e9f78-e868-417d-8223-b5ee109f46b7")
 		(effects
 			(font
 				(size 1 1)
@@ -15,8 +17,9 @@
 		)
 	)
 	(property "Value" "C_0402_1005Metric"
-		(at 0 1.16 0)
+		(at 0.09 2.31 0)
 		(layer "F.Fab")
+		(uuid "f42518af-bd9a-4d15-ba1c-ceed2fec9e54")
 		(effects
 			(font
 				(size 1 1)
@@ -24,60 +27,112 @@
 			)
 		)
 	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdbe4619-040e-42b4-aaaa-9565309c8ac7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a40b5232-7622-4174-a750-6a98ea703ac6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.03)
+	(solder_paste_margin_ratio -0.1)
 	(attr smd)
 	(fp_line
-		(start -0.107836 -0.36)
-		(end 0.107836 -0.36)
+		(start -1.006418 -0.58)
+		(end 1.026418 -0.58)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "57ecde3a-4e61-47eb-b2c0-e469a437aeb4")
 	)
 	(fp_line
-		(start -0.107836 0.36)
-		(end 0.107836 0.36)
+		(start -1 0.575)
+		(end -1 -0.525)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
+		(uuid "172c5728-9b20-42e5-a3d0-0c0073dc12b4")
 	)
 	(fp_line
-		(start -0.91 -0.46)
-		(end 0.91 -0.46)
+		(start -0.975 0.575)
+		(end 1.025 0.575)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc3a16b6-7baa-4db7-a4ff-683a57b85b30")
+	)
+	(fp_line
+		(start 1.025 0.575)
+		(end 1.025 -0.525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6e5503f-3301-44a5-a982-0328e9adc969")
+	)
+	(fp_line
+		(start -1.075 -0.63)
+		(end 1.1 -0.63)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "26496c0e-a656-427b-81a1-261ffe3e03f4")
 	)
 	(fp_line
-		(start -0.91 0.46)
-		(end -0.91 -0.46)
+		(start -1.075 0.625)
+		(end -1.075 -0.63)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "a08c07f7-b438-4344-98e3-4b60815d8587")
 	)
 	(fp_line
-		(start 0.91 -0.46)
-		(end 0.91 0.46)
+		(start 1.1 -0.63)
+		(end 1.1 0.625)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "b29274ba-7f7c-46a3-ae9a-51c1502d5554")
 	)
 	(fp_line
-		(start 0.91 0.46)
-		(end -0.91 0.46)
+		(start 1.1 0.625)
+		(end -1.075 0.625)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
+		(uuid "4a528407-b2cf-4f83-b7c9-45d12202a700")
 	)
 	(fp_line
 		(start -0.5 -0.25)
@@ -87,6 +142,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "ce07ad20-7cab-4ad7-8cbe-cf0d1efb241b")
 	)
 	(fp_line
 		(start -0.5 0.25)
@@ -96,6 +152,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "2cb4180c-48bb-4cc4-85cc-471631ea3cb3")
 	)
 	(fp_line
 		(start 0.5 -0.25)
@@ -105,6 +162,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "87a80dd9-e84d-4865-99a3-6a483a4ee859")
 	)
 	(fp_line
 		(start 0.5 0.25)
@@ -114,10 +172,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
+		(uuid "02e2a113-6f94-4e03-948b-79a2cac5dd2c")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0.03 3.26 0)
 		(layer "F.Fab")
+		(uuid "7e20121b-4f4c-4682-99f2-c45a31fe0d90")
 		(effects
 			(font
 				(size 0.25 0.25)
@@ -130,15 +190,19 @@
 		(size 0.56 0.62)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.03)
+		(uuid "42c996cb-eccb-42c8-b7b0-8a2aab961d9e")
 	)
 	(pad "2" smd roundrect
 		(at 0.48 0)
 		(size 0.56 0.62)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.03)
+		(uuid "9109323d-5152-4280-bfb1-c7c6e11e3f55")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+	(model "${KIPRJMOD}/Libraries/3dmodels/0402Capacitors/C_0402_1005Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)

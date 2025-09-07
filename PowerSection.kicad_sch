@@ -561,467 +561,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JS102011JAQN_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S2"
-				(at -4.826 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Value" "JS102011JAQN"
-				(at -5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "rightAngleOnOff_JS102011JAQN_local:SW_JS102011JAQN"
-				(at 0.254 -27.94 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "kicad-embed://js.pdf"
-				(at 0 -39.878 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
-				(at 1.27 -38.354 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "C&K"
-				(at -1.016 -15.494 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
-				(at -2.286 -17.526 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "-"
-				(at -1.016 -29.972 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.80 €"
-				(at -1.27 -11.43 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=eda"
-				(at -1.524 -23.114 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 -25.4 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "29 June 16"
-				(at -1.016 -13.462 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=snap"
-				(at -1.016 -20.066 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "JS102011JAQN"
-				(at -1.016 -32.258 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at -1.524 -37.084 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "C&K"
-				(at -0.762 -35.052 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "JS102011JAQN"
-				(at -2.286 -46.228 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "rohs" "yes"
-				(at -2.286 -48.514 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "vendor" "DigiKey"
-				(at -2.286 -50.546 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mounting type" "SMD"
-				(at -2.54 -41.91 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "vendor part number" "CKN10720CT-ND"
-				(at -1.778 -43.688 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JS102011JAQN_1_0_0"
-				(rectangle
-					(start 0.508 -0.254)
-					(end 2.286 3.302)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 4.572 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 -1.524) (xy 4.572 -1.524) (xy 3.81 -2.54) (xy 3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.556 -1.778) (xy 4.064 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.302) (xy 3.81 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.032) (xy 3.556 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.048 -1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.54) (xy 3.81 -2.032)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 -1.524) (xy 3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "JS102011JAQN_1_1_0"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type color)
-						(color 255 255 255 1)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1.1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2.1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3.1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LED_local:LED"
 			(pin_numbers
 				(hide yes)
@@ -3068,6 +2607,467 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "rightAngleOnOff_JS102011JAQN_local:JS102011JAQN"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S2"
+				(at -4.826 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "JS102011JAQN"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "rightAngleOnOff_JS102011JAQN_local:SW_JS102011JAQN"
+				(at 0.254 -27.94 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "kicad-embed://js.pdf"
+				(at 0 -39.878 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
+				(at 1.27 -38.354 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "C&K"
+				(at -1.016 -15.494 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Slide Switch SPDT Surface Mount, Right Angle"
+				(at -2.286 -17.526 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "-"
+				(at -1.016 -29.972 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.80 €"
+				(at -1.27 -11.43 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=eda"
+				(at -1.524 -23.114 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 -25.4 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "29 June 16"
+				(at -1.016 -13.462 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS102011JAQN/C%2526K/view-part/?ref=snap"
+				(at -1.016 -20.066 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "JS102011JAQN"
+				(at -1.016 -32.258 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at -1.524 -37.084 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "C&K"
+				(at -0.762 -35.052 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MPN" "JS102011JAQN"
+				(at -2.286 -46.228 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "rohs" "yes"
+				(at -2.286 -48.514 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor" "DigiKey"
+				(at -2.286 -50.546 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mounting type" "SMD"
+				(at -2.54 -41.91 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "vendor part number" "CKN10720CT-ND"
+				(at -1.778 -43.688 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JS102011JAQN_0_0"
+				(rectangle
+					(start 0.508 -0.254)
+					(end 2.286 3.302)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 4.572 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 4.572 -1.524) (xy 3.81 -2.54) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -1.778) (xy 4.064 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.302) (xy 3.81 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.032) (xy 3.556 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.048 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -1.524) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JS102011JAQN_1_0"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+				(pin power_out line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1.1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2.1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3.1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ul_BatteryConnector_B2B-PH-SM4-TB_local:B2B-PH-SM4-TBLFSN"
 			(pin_names
 				(offset 0.254)
@@ -4044,20 +4044,6 @@
 		)
 		(uuid "032310a4-9f5f-4f25-afe5-52b67ae88b5f")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 111.76 99.06 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "157bd9f9-fb44-4373-8521-18c9b8df224f")
-	)
 	(text "-setting the resistor at the PROG pin to 28.7 kOhm value leads the \n charge current to be 35 mA (little less then the maximum charge current of the lipo 80 mAh)\n-red Led On when battery is charging"
 		(exclude_from_sim no)
 		(at 80.01 72.39 0)
@@ -4069,20 +4055,6 @@
 			(justify left)
 		)
 		(uuid "1abfd761-1901-48cb-aff5-b0d84e0f615f")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 102.87 116.84 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "1e22730c-239c-4a19-85ff-ad003d047b81")
 	)
 	(text "BatteryInfoLink"
 		(exclude_from_sim no)
@@ -4097,37 +4069,9 @@
 		)
 		(uuid "30efb01f-c1ee-4d99-9d93-ddb25d322a62")
 	)
-	(text "√"
+	(text "-C20 Shunts the fast edges of the MAXM86161 LED pulses to GND\n to suppress spikes/ringing and keep VSYS quiet. \n-Place within 1-2 mm of the VLED pin (0402 X5R/X7R, ≥6.3 V). Optional but recommended."
 		(exclude_from_sim no)
-		(at 209.55 93.98 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3840dff8-6c80-484f-b680-3fe8c5f6da76")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 39.37 116.84 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3a74c012-3767-4879-b1ce-78e547209b23")
-	)
-	(text "-C22 Shunts the fast edges of the MAXM86161 LED pulses to GND\n to suppress spikes/ringing and keep VSYS quiet. \n-Place within 1-2 mm of the VLED pin (0402 X5R/X7R, ≥6.3 V). Optional but recommended."
-		(exclude_from_sim no)
-		(at 177.8 130.81 0)
+		(at 152.4 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4139,7 +4083,7 @@
 	)
 	(text "-Cbulk of 10uF shown in the sensor page"
 		(exclude_from_sim no)
-		(at 177.8 135.89 0)
+		(at 152.4 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4173,7 +4117,7 @@
 		)
 		(uuid "6867b5fe-1ecd-4ee5-85b1-9f851756bcf7")
 	)
-	(text "-right Angle On/Off slide switch on edge of board\n-pin 1 and 2 connected: system OFF\n-pin 2 and 3 connected: system ON\n-switch connected after battery charging circuit,\n can charge battery while OFF"
+	(text "-right Angle On/Off slide switch on edge of board\n-pin 1 and 2 connected: system ON\n-pin 2 and 3 connected: system OFF\n-switch connected after battery charging circuit,\n can charge battery while OFF"
 		(exclude_from_sim no)
 		(at 232.41 58.42 0)
 		(effects
@@ -4197,37 +4141,9 @@
 		)
 		(uuid "722c7d70-c6d0-4c09-bd5f-44d7b5709865")
 	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 142.24 43.18 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "73b784ac-e24a-4c33-b261-a9b49e69afa7")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 92.71 40.64 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "801b0e04-ce23-4d02-adde-1a51275c1662")
-	)
 	(text "-this ferrite bead is assigned to the same footprint of the FB1 "
 		(exclude_from_sim no)
-		(at 209.55 142.24 0)
+		(at 184.15 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4237,7 +4153,7 @@
 	)
 	(text "-bead may help by isolating HF current from flowing back to VSYS"
 		(exclude_from_sim no)
-		(at 177.8 125.73 0)
+		(at 152.4 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4246,48 +4162,6 @@
 			(justify left)
 		)
 		(uuid "9599e1af-db95-489e-a1f0-02bec7247874")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 91.44 111.76 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ab426832-c5f4-478b-ac41-43ec088e20e3")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 95.25 50.8 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "af65909c-1627-4dcd-96eb-20d2d6b3e9c5")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 123.19 52.07 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "b44b968e-6bfd-4567-80c5-a31c402d85ca")
 	)
 	(text "-MODE: tying to GND to enable power-save (PFM)"
 		(exclude_from_sim no)
@@ -4301,65 +4175,21 @@
 		)
 		(uuid "b6d72c27-5c1f-4d96-a714-64fec2626f95")
 	)
-	(text "√"
+	(text "-layout note: The VOS pin to C11 connection will be a short, thin Kelvin \n spur from Cout+ to pin VOS (≤3 mm, no vias), routed away from SW\n-net connecting pin2 of L1, pin2 of C11 and Pin1 of FB1 belongs to \n the power net class on the layout "
 		(exclude_from_sim no)
-		(at 41.91 31.75 0)
+		(at 38.1 135.89 0)
 		(effects
 			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
+				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "ba49a3ce-738a-47d2-8667-9cede7163ff2")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 201.93 39.37 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "bc8ce388-6ea2-4789-afc7-21b1176747f2")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 237.49 106.68 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "c0a1bf42-e1c7-4ce8-a2fc-3c2a052f7448")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 257.81 40.64 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "c318a75d-cfaf-4125-ac6a-4b4655797504")
+		(uuid "bbeb099d-dff9-44a4-98f4-72866fd33c9e")
 	)
 	(text "-High impedance at HF blocks LED-pulse noise from returning to VSYS/1.8 V rail.\n-mount the bead if pulse-induced noise from the MAXM86161 LED driver is present"
 		(exclude_from_sim no)
-		(at 177.8 121.92 0)
+		(at 152.4 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4368,48 +4198,6 @@
 			(justify left)
 		)
 		(uuid "d7f1bc01-c679-451c-9974-f747c9ae5b08")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 72.39 99.06 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "f2bf00ae-649b-4db6-b8f4-b7d9136b27ed")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 118.11 33.02 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "f4ecf729-614f-49af-8da5-7b012f251d75")
-	)
-	(text "√"
-		(exclude_from_sim no)
-		(at 76.2 46.99 0)
-		(effects
-			(font
-				(size 6 6)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "fa9d0074-d241-41b7-a923-d691756fd2a6")
 	)
 	(junction
 		(at 88.9 38.1)
@@ -4424,16 +4212,10 @@
 		(uuid "53d308af-1658-4dca-b353-6764eb27d595")
 	)
 	(junction
-		(at 228.6 102.87)
+		(at 203.2 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ea518d2-d5ba-4369-91d2-a34b5a94df5b")
-	)
-	(junction
-		(at 98.425 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ad6b9aa-6052-419f-8826-d6f6f3203a9b")
 	)
 	(junction
 		(at 81.28 38.1)
@@ -4442,28 +4224,28 @@
 		(uuid "846e7e8d-39fd-430e-9efc-0613db19b222")
 	)
 	(junction
+		(at 102.87 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88aebce5-bddf-47c0-b6c3-d0daa94088fe")
+	)
+	(junction
 		(at 132.08 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3e33886-5abb-4a07-93c4-65f3542c690b")
 	)
 	(junction
+		(at 102.87 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae34c0b2-8f0e-4e67-ac4c-84b5ff91252a")
+	)
+	(junction
 		(at 54.61 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b5bbd5-5399-47d8-b45b-c9630f46929f")
-	)
-	(junction
-		(at 100.33 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba0a1f43-bbf4-42f8-8297-c7047f0bad80")
-	)
-	(junction
-		(at 24.13 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c53fb506-f920-4063-9cc1-875a80875682")
 	)
 	(junction
 		(at 86.36 113.03)
@@ -4488,6 +4270,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1252fe0-d10d-4c00-9d6e-13e7507ba12b")
+	)
+	(junction
+		(at 24.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e04a29-3da8-42a2-a576-1876453db9f2")
 	)
 	(no_connect
 		(at 49.53 45.72)
@@ -4533,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.755 99.06) (xy 202.565 99.06)
+			(xy 173.355 96.52) (xy 177.165 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4603,6 +4391,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 105.41) (xy 110.49 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff1ba9d-8e8b-45c6-beb3-39b475c14711")
+	)
+	(wire
+		(pts
 			(xy 129.54 60.96) (xy 129.54 58.42)
 		)
 		(stroke
@@ -4613,7 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.775 102.87) (xy 231.775 99.06)
+			(xy 206.375 100.33) (xy 206.375 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4683,7 +4481,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 45.72) (xy 241.3 45.72)
+			(xy 234.95 40.64) (xy 241.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4693,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.775 99.06) (xy 236.22 99.06)
+			(xy 206.375 96.52) (xy 210.82 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4703,7 +4501,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 34.29) (xy 81.28 34.29)
+			(xy 76.2 34.29) (xy 81.28 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4753,23 +4551,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 128.27 105.41)
+			(xy 120.65 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "422d42c0-e841-4c0d-82c2-7a800e6a2301")
-	)
-	(wire
-		(pts
-			(xy 100.33 105.41) (xy 106.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47a2bce0-4f23-4830-a8d0-9cf149c25f88")
 	)
 	(wire
 		(pts
@@ -4783,7 +4571,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 102.87) (xy 198.755 102.87)
+			(xy 182.88 100.33) (xy 173.355 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4800,6 +4588,16 @@
 			(type default)
 		)
 		(uuid "53d77603-f403-40cb-9a0d-b82ddc45109d")
+	)
+	(wire
+		(pts
+			(xy 102.87 105.41) (xy 102.87 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595ee387-6d3c-4de8-a979-c5ba655ac0bf")
 	)
 	(wire
 		(pts
@@ -4853,6 +4651,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 48.26) (xy 24.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e37038b-3996-4b1d-936b-3cbfdaac38b0")
+	)
+	(wire
+		(pts
 			(xy 88.9 38.1) (xy 88.9 39.37)
 		)
 		(stroke
@@ -4873,7 +4681,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 38.1) (xy 81.28 38.1)
+			(xy 76.2 38.1) (xy 81.28 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4913,7 +4721,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 109.22) (xy 98.425 109.22)
+			(xy 96.52 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4933,17 +4741,7 @@
 	)
 	(wire
 		(pts
-			(xy 98.425 105.41) (xy 98.425 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a4cdb5-ccee-4c84-b1b9-2b68b130c38c")
-	)
-	(wire
-		(pts
-			(xy 100.33 105.41) (xy 100.33 110.49)
+			(xy 102.87 109.22) (xy 102.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4960,16 +4758,6 @@
 			(type default)
 		)
 		(uuid "8f913408-a1f0-4cde-8233-fb75e3b4f465")
-	)
-	(wire
-		(pts
-			(xy 24.13 48.26) (xy 24.13 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f97ac1-2400-4d24-90eb-9f851caa4e92")
 	)
 	(wire
 		(pts
@@ -5053,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 118.11) (xy 100.33 119.38)
+			(xy 102.87 121.92) (xy 102.87 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5063,7 +4851,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.835 38.1) (xy 76.835 34.29)
+			(xy 76.2 38.1) (xy 76.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5073,7 +4861,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 102.87) (xy 228.6 102.87)
+			(xy 193.04 100.33) (xy 203.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5093,16 +4881,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 105.41) (xy 98.425 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c802da2c-5bd0-4983-a85a-7be4ccb5949a")
-	)
-	(wire
-		(pts
 			(xy 81.28 38.1) (xy 88.9 38.1)
 		)
 		(stroke
@@ -5113,13 +4891,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 111.76) (xy 228.6 113.03)
+			(xy 203.2 109.22) (xy 203.2 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cdbe3238-44f0-4a85-90e0-1da3559d89e2")
+	)
+	(wire
+		(pts
+			(xy 83.82 105.41) (xy 102.87 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf95c694-4f16-4539-bb61-dcae2c2108b2")
 	)
 	(wire
 		(pts
@@ -5143,7 +4931,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.755 102.87) (xy 198.755 99.06)
+			(xy 173.355 100.33) (xy 173.355 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5193,7 +4981,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 104.14) (xy 228.6 102.87)
+			(xy 203.2 101.6) (xy 203.2 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5213,17 +5001,7 @@
 	)
 	(wire
 		(pts
-			(xy 98.425 105.41) (xy 100.33 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f31de6-940d-4cc1-99f8-4cd61e823398")
-	)
-	(wire
-		(pts
-			(xy 228.6 102.87) (xy 231.775 102.87)
+			(xy 203.2 100.33) (xy 206.375 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6697,12 +6475,12 @@
 		(uuid "17ba6dca-6d21-410e-83cb-7b5cc6e7d139")
 	)
 	(label "VOS"
-		(at 86.36 105.41 0)
+		(at 87.63 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "1b66aeb3-7815-481c-b254-bbd1a35afa46")
 	)
@@ -6737,7 +6515,7 @@
 		(uuid "7be73627-6bb5-4173-a44f-31a581beffe8")
 	)
 	(label "VDD_1V8"
-		(at 128.27 105.41 180)
+		(at 132.08 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6746,8 +6524,18 @@
 		)
 		(uuid "7cbba932-342a-4e8a-a511-401a1cd48f41")
 	)
+	(label "VBUS"
+		(at 50.8 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85480e59-0111-4dc7-8909-5a77cab9a5bf")
+	)
 	(label "VSYS"
-		(at 202.565 99.06 180)
+		(at 177.165 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6766,18 +6554,8 @@
 		)
 		(uuid "8bb61be0-6a45-449d-be59-25b20c2696e4")
 	)
-	(label "VBUS"
-		(at 50.8 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "99f98da1-c744-4099-904b-ab33a32be7af")
-	)
 	(label "VLED"
-		(at 236.22 99.06 180)
+		(at 210.82 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6785,6 +6563,16 @@
 			(justify right bottom)
 		)
 		(uuid "a37944df-260f-4dbe-b5ab-c0d8705fcd2d")
+	)
+	(label "VBUS"
+		(at 81.28 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cce7b6e3-2f0a-4a8a-8a54-2268b9df9f4d")
 	)
 	(label "STAT"
 		(at 97.79 58.42 0)
@@ -6816,16 +6604,6 @@
 		)
 		(uuid "d6d2e42f-4004-4759-9040-c09750a33679")
 	)
-	(label "VBUS"
-		(at 81.28 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dff9c22d-3808-4c6a-98e4-10f1b370f89d")
-	)
 	(label "VSYS"
 		(at 27.94 176.53 0)
 		(effects
@@ -6847,7 +6625,7 @@
 		(uuid "ed50b41d-665b-45fd-8bc2-77a3f86252e7")
 	)
 	(label "VSYS"
-		(at 234.95 45.72 0)
+		(at 234.95 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6890,7 +6668,6 @@
 		(uuid "b4b5b901-2ee6-4d6f-b5c1-019081e598d3")
 	)
 	(symbol
-		(lib_name "JS102011JAQN_1")
 		(lib_id "rightAngleOnOff_JS102011JAQN_local:JS102011JAQN")
 		(at 251.46 43.18 0)
 		(unit 1)
@@ -7454,71 +7231,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power_local:PWR_FLAG")
-		(at 50.8 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "407d41b7-ebce-44ab-a1c1-2d49d879f733")
-		(property "Reference" "#FLG03"
-			(at 50.8 42.545 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b25d87cc-12f3-4f4d-932d-d387f024229e")
-		)
-		(instances
-			(project ""
-				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power_local:GND")
 		(at 81.28 49.53 0)
 		(unit 1)
@@ -7585,7 +7297,7 @@
 	)
 	(symbol
 		(lib_id "unpolarizedcapacitor:C")
-		(at 228.6 107.95 0)
+		(at 203.2 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7593,7 +7305,7 @@
 		(dnp no)
 		(uuid "55087e1a-b9b5-45e5-be96-706ea6b0e072")
 		(property "Reference" "C20"
-			(at 232.41 106.6799 0)
+			(at 207.01 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +7314,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 232.41 109.2199 0)
+			(at 207.01 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7611,7 +7323,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD_local:C_0402_1005Metric"
-			(at 229.5652 111.76 0)
+			(at 204.1652 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://GRM155R70J104KA01-01.pdf"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +7341,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±10% 6.3V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7350,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7359,7 @@
 			)
 		)
 		(property "MPN" "GRM155R70J104KA01D"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7368,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7377,7 @@
 			)
 		)
 		(property "Price" "0.09 €"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7386,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7395,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7692,7 +7404,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7701,7 +7413,7 @@
 			)
 		)
 		(property "vendor part number" "490-6319-1-ND"
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7710,7 +7422,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 228.6 107.95 0)
+			(at 203.2 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +7958,7 @@
 	)
 	(symbol
 		(lib_id "power_local:GND")
-		(at 100.33 119.38 0)
+		(at 102.87 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8254,7 +7966,7 @@
 		(dnp no)
 		(uuid "7e584369-c531-4e49-85d7-4126e2caa0a3")
 		(property "Reference" "#PWR014"
-			(at 100.33 125.73 0)
+			(at 102.87 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,7 +7975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 123.19 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8271,7 +7983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 119.38 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +7992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 119.38 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 119.38 0)
+			(at 102.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8470,7 +8182,7 @@
 	)
 	(symbol
 		(lib_id "dk_Ferrite-Beads-and-Chips_local:BLM18AG601SN1D")
-		(at 213.36 102.87 0)
+		(at 187.96 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8478,7 +8190,7 @@
 		(dnp no)
 		(uuid "912b0ad1-ab42-4869-9b8a-5d34fbdd2f9b")
 		(property "Reference" "FB2"
-			(at 213.36 99.06 0)
+			(at 187.96 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8486,7 +8198,7 @@
 			)
 		)
 		(property "Value" "BLM18AG601SN1D"
-			(at 215.138 107.188 0)
+			(at 189.738 104.648 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8494,7 +8206,7 @@
 			)
 		)
 		(property "Footprint" "ul_ferriteBead_BLM18HE152SN1D_local:IND_BLM18_0603_MUR"
-			(at 218.44 97.79 0)
+			(at 193.04 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8504,7 +8216,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ENFA0003.pdf"
-			(at 218.44 95.25 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8514,7 +8226,7 @@
 			)
 		)
 		(property "Description" "600 Ohms @ 100 MHz 1 Ferrite Bead 0603 (1608 Metric) 500mA 380mOhm"
-			(at 214.63 110.998 0)
+			(at 189.23 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8235,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "490-1014-1-ND"
-			(at 218.44 92.71 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8533,7 +8245,7 @@
 			)
 		)
 		(property "MPN" "BLM18AG601SN1D"
-			(at 218.44 90.17 0)
+			(at 193.04 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8543,7 +8255,7 @@
 			)
 		)
 		(property "Category" "Filters"
-			(at 218.44 87.63 0)
+			(at 193.04 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8553,7 +8265,7 @@
 			)
 		)
 		(property "Family" "Ferrite Beads and Chips"
-			(at 218.44 85.09 0)
+			(at 193.04 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8563,7 +8275,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf"
-			(at 218.44 82.55 0)
+			(at 193.04 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8573,7 +8285,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/murata-electronics-north-america/BLM18AG601SN1D/490-1014-1-ND/584462"
-			(at 218.44 80.01 0)
+			(at 193.04 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8583,7 +8295,7 @@
 			)
 		)
 		(property "Description_1" "FERRITE BEAD 600 OHM 0603 1LN"
-			(at 218.44 77.47 0)
+			(at 193.04 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8593,7 +8305,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics North America"
-			(at 218.44 74.93 0)
+			(at 193.04 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8603,7 +8315,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 218.44 72.39 0)
+			(at 193.04 69.85 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8613,7 +8325,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 214.122 113.03 0)
+			(at 188.722 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8622,7 +8334,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 213.106 114.808 0)
+			(at 187.706 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8343,7 @@
 			)
 		)
 		(property "Price" "0.09 €"
-			(at 213.36 119.126 0)
+			(at 187.96 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,7 +8352,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 213.106 120.65 0)
+			(at 187.706 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,7 +8361,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 213.36 116.332 0)
+			(at 187.96 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8658,7 +8370,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 212.598 124.968 0)
+			(at 187.198 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +8379,7 @@
 			)
 		)
 		(property "vendor part number" "490-1014-1-ND"
-			(at 213.614 122.428 0)
+			(at 188.214 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +8388,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 213.36 102.87 0)
+			(at 187.96 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ul_BatteryConnector_B2B-PH-SM4-TB-LF-SN_local:CONN_B2B-PH-SM4-TBLFSN_JST"
+		(property "Footprint" "ul_BatteryConnector_S2B-PH-SM4-TB_local:CONN_S2B-PH-SM4-TB_JST"
 			(at 198.12 44.45 0)
 			(effects
 				(font
@@ -8851,7 +8563,7 @@
 	)
 	(symbol
 		(lib_id "dk_Ferrite-Beads-and-Chips_local:BLM18HE152SN1D")
-		(at 111.76 105.41 0)
+		(at 115.57 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8859,7 +8571,7 @@
 		(dnp no)
 		(uuid "a5999f6c-d06d-43c1-9ed3-6fbb6adcf82c")
 		(property "Reference" "FB1"
-			(at 111.76 101.6 0)
+			(at 115.57 101.6 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8867,7 +8579,7 @@
 			)
 		)
 		(property "Value" "BLM18HE152SN1D"
-			(at 111.76 109.22 0)
+			(at 115.57 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8875,7 +8587,7 @@
 			)
 		)
 		(property "Footprint" "ul_ferriteBead_BLM18HE152SN1D_local:IND_BLM18_0603_MUR"
-			(at 116.84 100.33 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8885,7 +8597,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ENFA0004.pdf"
-			(at 116.84 97.79 0)
+			(at 120.65 97.79 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8895,7 +8607,7 @@
 			)
 		)
 		(property "Description" "1.5 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0603 (1608 Metric) 500mA 500mOhm"
-			(at 106.426 112.522 0)
+			(at 110.236 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8904,7 +8616,7 @@
 			)
 		)
 		(property "Digi-Key_PN" "490-5216-1-ND"
-			(at 116.84 95.25 0)
+			(at 120.65 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8914,7 +8626,7 @@
 			)
 		)
 		(property "MPN" "BLM18HE152SN1D"
-			(at 116.84 92.71 0)
+			(at 120.65 92.71 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8924,7 +8636,7 @@
 			)
 		)
 		(property "Category" "Filters"
-			(at 116.84 90.17 0)
+			(at 120.65 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8934,7 +8646,7 @@
 			)
 		)
 		(property "Family" "Ferrite Beads and Chips"
-			(at 116.84 87.63 0)
+			(at 120.65 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8944,7 +8656,7 @@
 			)
 		)
 		(property "DK_Datasheet_Link" "https://www.murata.com/en-us/products/productdata/8796741599262/ENFA0004.pdf"
-			(at 116.84 85.09 0)
+			(at 120.65 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8954,7 +8666,7 @@
 			)
 		)
 		(property "DK_Detail_Page" "/product-detail/en/murata-electronics-north-america/BLM18HE152SN1D/490-5216-1-ND/1948392"
-			(at 116.84 82.55 0)
+			(at 120.65 82.55 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8964,7 +8676,7 @@
 			)
 		)
 		(property "Description_1" "FERRITE BEAD 1.5 KOHM 0603 1LN"
-			(at 116.84 80.01 0)
+			(at 120.65 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8974,7 +8686,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 116.84 77.47 0)
+			(at 120.65 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8984,7 +8696,7 @@
 			)
 		)
 		(property "Status" "Active"
-			(at 116.84 74.93 0)
+			(at 120.65 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8994,7 +8706,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 105.918 120.396 0)
+			(at 109.728 120.396 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9004,7 +8716,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 104.14 127.762 0)
+			(at 107.95 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,7 +8725,7 @@
 			)
 		)
 		(property "Price" "0.18 €"
-			(at 104.902 117.856 0)
+			(at 108.712 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9022,7 +8734,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 103.632 123.952 0)
+			(at 107.442 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9031,7 +8743,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 104.14 125.984 0)
+			(at 107.95 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9040,7 +8752,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 103.632 122.428 0)
+			(at 107.442 122.428 0)
 			(show_name yes)
 			(effects
 				(font
@@ -9050,7 +8762,7 @@
 			)
 		)
 		(property "vendor part number" "490-5216-1-ND"
-			(at 105.918 115.824 0)
+			(at 109.728 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +8771,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 111.76 105.41 0)
+			(at 115.57 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,7 +8926,7 @@
 	(symbol
 		(lib_name "C_1")
 		(lib_id "unpolarizedcapacitor:C")
-		(at 100.33 114.3 0)
+		(at 102.87 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9222,7 +8934,7 @@
 		(dnp no)
 		(uuid "b80284af-f0d8-444c-9b0c-24d4978c560d")
 		(property "Reference" "C11"
-			(at 96.52 111.76 0)
+			(at 99.06 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +8943,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 95.25 116.84 0)
+			(at 97.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +8952,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD_local:C_0603_1608Metric"
-			(at 101.2952 118.11 0)
+			(at 103.8352 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +8961,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://GRM188R60J106ME47-01.pdf"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +8970,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9267,7 +8979,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Murata Electronics"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9276,7 +8988,7 @@
 			)
 		)
 		(property "MPN" "GRM188R60J106ME47D"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9285,7 +8997,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9006,7 @@
 			)
 		)
 		(property "Price" "0.10 €"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +9015,7 @@
 			)
 		)
 		(property "rohs" "yes"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9312,7 +9024,7 @@
 			)
 		)
 		(property "vendor" "DigiKey"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,7 +9033,7 @@
 			)
 		)
 		(property "mounting type" "SMD"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,7 +9042,7 @@
 			)
 		)
 		(property "vendor part number" "490-3896-1-ND"
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9051,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 100.33 114.3 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9820,8 +9532,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power_local:PWR_FLAG")
+		(at 50.8 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d585c944-a28c-491e-bf27-bd181db36b94")
+		(property "Reference" "#FLG03"
+			(at 50.8 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e55480df-e3ff-4856-81b2-8413336c51ab")
+		)
+		(instances
+			(project ""
+				(path "/b00f58d9-17b8-4612-81ad-8f45c5b50f62/3e247ce7-971c-47cf-a159-3b0bea3b6f45"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power_local:GND")
-		(at 228.6 113.03 0)
+		(at 203.2 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9829,7 +9606,7 @@
 		(dnp no)
 		(uuid "d7a07a1d-b6e0-40ad-891a-d7dbfb57a901")
 		(property "Reference" "#PWR029"
-			(at 228.6 119.38 0)
+			(at 203.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9838,7 +9615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 116.84 0)
+			(at 203.2 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +9623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 113.03 0)
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9855,7 +9632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 113.03 0)
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9864,7 +9641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 113.03 0)
+			(at 203.2 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

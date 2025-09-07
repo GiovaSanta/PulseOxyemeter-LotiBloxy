@@ -352,7 +352,7 @@
 					(color 255 255 255 1)
 				)
 			)
-			(pin no_connect line
+			(pin power_out line
 				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "1"
@@ -370,7 +370,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin power_out line
 				(at -10.16 2.54 0)
 				(length 5.08)
 				(name "1"
@@ -424,7 +424,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin no_connect line
 				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "3"
@@ -442,7 +442,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin no_connect line
 				(at -10.16 -2.54 0)
 				(length 5.08)
 				(name "3"
